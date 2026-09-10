@@ -1,0 +1,7471 @@
+{
+  "account": {
+    "name": "Realify AI",
+    "handle": "realify.ai8",
+    "niche": "One Piece uniquement"
+  },
+  "provenance": {
+    "export_date": "2026-09-11",
+    "start": "2025-09-11",
+    "end": "2026-09-10",
+    "year_inference": "Nom du ZIP Overview et ordre des mois ; années absentes des CSV.",
+    "post_scope": "15 publications exportées ; compteurs Total, période de cumul non documentée. Ne pas assimiler au total Overview.",
+    "files": [
+      {
+        "file": "Content.csv",
+        "sha256": "4ee1b45134cbfa822ee96d877ad13ab1036c991c4d275e4dcb1ba2a47d987c03"
+      },
+      {
+        "file": "FollowerActivity.csv",
+        "sha256": "08bcfaed3ab75b02562f4b4a900797fd91d61e46296719e9d9b5f3777a965b27"
+      },
+      {
+        "file": "FollowerGender.csv",
+        "sha256": "0cfc80dfa9b126ae4d2ce2230f16cd8fa39ac798ffbba053f141088f9e5a7dde"
+      },
+      {
+        "file": "FollowerHistory.csv",
+        "sha256": "9bed6a03a45c43976303392047c1dfed1c391e0307b14665033fdc2ee1c40035"
+      },
+      {
+        "file": "FollowerTopTerritories.csv",
+        "sha256": "07e5e88cd7b1e18afb7b763483b909636c29fd3b3b74580abe5653285eafa886"
+      },
+      {
+        "file": "Overview.csv",
+        "sha256": "b8bf0ff3ef00d9d9e9c4760c98f9da18b0c0e1858abf2d4c2213a02cfc18909e"
+      },
+      {
+        "file": "Viewers.csv",
+        "sha256": "5920649d45e66bd134675ffd7efce0a9766a3775ef84aeb72acff363df80390b"
+      }
+    ]
+  },
+  "totals": {
+    "Video Views": 3487296,
+    "Profile Views": 42624,
+    "Likes": 126117,
+    "Comments": 913,
+    "Shares": 8309
+  },
+  "monthly": {
+    "2025-09": {
+      "Video Views": 483202,
+      "Profile Views": 9086,
+      "Likes": 14203,
+      "Comments": 186,
+      "Shares": 1195
+    },
+    "2025-10": {
+      "Video Views": 2709250,
+      "Profile Views": 29748,
+      "Likes": 97697,
+      "Comments": 655,
+      "Shares": 6441
+    },
+    "2025-11": {
+      "Video Views": 220279,
+      "Profile Views": 2866,
+      "Likes": 10727,
+      "Comments": 79,
+      "Shares": 520
+    },
+    "2025-12": {
+      "Video Views": 52248,
+      "Profile Views": 564,
+      "Likes": 2500,
+      "Comments": 8,
+      "Shares": 123
+    },
+    "2026-01": {
+      "Video Views": 14863,
+      "Profile Views": 169,
+      "Likes": 895,
+      "Comments": 8,
+      "Shares": 26
+    },
+    "2026-02": {
+      "Video Views": 1584,
+      "Profile Views": 41,
+      "Likes": 21,
+      "Comments": -4,
+      "Shares": 0
+    },
+    "2026-03": {
+      "Video Views": 1685,
+      "Profile Views": 42,
+      "Likes": 20,
+      "Comments": -1,
+      "Shares": 1
+    },
+    "2026-04": {
+      "Video Views": 849,
+      "Profile Views": 27,
+      "Likes": 10,
+      "Comments": -4,
+      "Shares": 0
+    },
+    "2026-05": {
+      "Video Views": 774,
+      "Profile Views": 22,
+      "Likes": 14,
+      "Comments": -8,
+      "Shares": 1
+    },
+    "2026-06": {
+      "Video Views": 666,
+      "Profile Views": 23,
+      "Likes": 4,
+      "Comments": -5,
+      "Shares": 1
+    },
+    "2026-07": {
+      "Video Views": 748,
+      "Profile Views": 15,
+      "Likes": 6,
+      "Comments": -1,
+      "Shares": 0
+    },
+    "2026-08": {
+      "Video Views": 877,
+      "Profile Views": 13,
+      "Likes": 11,
+      "Comments": 0,
+      "Shares": 1
+    },
+    "2026-09": {
+      "Video Views": 271,
+      "Profile Views": 8,
+      "Likes": 9,
+      "Comments": 0,
+      "Shares": 0
+    }
+  },
+  "daily": [
+    {
+      "date": "2025-09-11",
+      "Video Views": 86976,
+      "Profile Views": 1834,
+      "Likes": 1971,
+      "Comments": 19,
+      "Shares": 182
+    },
+    {
+      "date": "2025-09-12",
+      "Video Views": 49503,
+      "Profile Views": 1099,
+      "Likes": 1612,
+      "Comments": 27,
+      "Shares": 151
+    },
+    {
+      "date": "2025-09-13",
+      "Video Views": 10407,
+      "Profile Views": 237,
+      "Likes": 397,
+      "Comments": 0,
+      "Shares": 35
+    },
+    {
+      "date": "2025-09-14",
+      "Video Views": 10076,
+      "Profile Views": 235,
+      "Likes": 337,
+      "Comments": 9,
+      "Shares": 26
+    },
+    {
+      "date": "2025-09-15",
+      "Video Views": 25713,
+      "Profile Views": 407,
+      "Likes": 599,
+      "Comments": 13,
+      "Shares": 53
+    },
+    {
+      "date": "2025-09-16",
+      "Video Views": 42297,
+      "Profile Views": 543,
+      "Likes": 1386,
+      "Comments": 38,
+      "Shares": 69
+    },
+    {
+      "date": "2025-09-17",
+      "Video Views": 5099,
+      "Profile Views": 100,
+      "Likes": 213,
+      "Comments": 9,
+      "Shares": 26
+    },
+    {
+      "date": "2025-09-18",
+      "Video Views": 18183,
+      "Profile Views": 276,
+      "Likes": 333,
+      "Comments": 7,
+      "Shares": 24
+    },
+    {
+      "date": "2025-09-19",
+      "Video Views": 59505,
+      "Profile Views": 936,
+      "Likes": 1270,
+      "Comments": 10,
+      "Shares": 61
+    },
+    {
+      "date": "2025-09-20",
+      "Video Views": 61151,
+      "Profile Views": 1155,
+      "Likes": 1979,
+      "Comments": 18,
+      "Shares": 199
+    },
+    {
+      "date": "2025-09-21",
+      "Video Views": 19140,
+      "Profile Views": 405,
+      "Likes": 659,
+      "Comments": 5,
+      "Shares": 88
+    },
+    {
+      "date": "2025-09-22",
+      "Video Views": 15922,
+      "Profile Views": 340,
+      "Likes": 633,
+      "Comments": 10,
+      "Shares": 61
+    },
+    {
+      "date": "2025-09-23",
+      "Video Views": 5801,
+      "Profile Views": 149,
+      "Likes": 224,
+      "Comments": 3,
+      "Shares": 18
+    },
+    {
+      "date": "2025-09-24",
+      "Video Views": 2568,
+      "Profile Views": 61,
+      "Likes": 85,
+      "Comments": 1,
+      "Shares": 6
+    },
+    {
+      "date": "2025-09-25",
+      "Video Views": 1948,
+      "Profile Views": 64,
+      "Likes": 52,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2025-09-26",
+      "Video Views": 3163,
+      "Profile Views": 74,
+      "Likes": 117,
+      "Comments": 0,
+      "Shares": 6
+    },
+    {
+      "date": "2025-09-27",
+      "Video Views": 18755,
+      "Profile Views": 341,
+      "Likes": 685,
+      "Comments": 2,
+      "Shares": 61
+    },
+    {
+      "date": "2025-09-28",
+      "Video Views": 23559,
+      "Profile Views": 418,
+      "Likes": 815,
+      "Comments": 6,
+      "Shares": 66
+    },
+    {
+      "date": "2025-09-29",
+      "Video Views": 11356,
+      "Profile Views": 219,
+      "Likes": 400,
+      "Comments": 5,
+      "Shares": 23
+    },
+    {
+      "date": "2025-09-30",
+      "Video Views": 12080,
+      "Profile Views": 193,
+      "Likes": 436,
+      "Comments": 4,
+      "Shares": 37
+    },
+    {
+      "date": "2025-10-01",
+      "Video Views": 11796,
+      "Profile Views": 195,
+      "Likes": 463,
+      "Comments": 4,
+      "Shares": 29
+    },
+    {
+      "date": "2025-10-02",
+      "Video Views": 244496,
+      "Profile Views": 2076,
+      "Likes": 7838,
+      "Comments": 49,
+      "Shares": 408
+    },
+    {
+      "date": "2025-10-03",
+      "Video Views": 544222,
+      "Profile Views": 5459,
+      "Likes": 18179,
+      "Comments": 127,
+      "Shares": 767
+    },
+    {
+      "date": "2025-10-04",
+      "Video Views": 193174,
+      "Profile Views": 2268,
+      "Likes": 8012,
+      "Comments": 57,
+      "Shares": 528
+    },
+    {
+      "date": "2025-10-05",
+      "Video Views": 219356,
+      "Profile Views": 2457,
+      "Likes": 8434,
+      "Comments": 54,
+      "Shares": 335
+    },
+    {
+      "date": "2025-10-06",
+      "Video Views": 208194,
+      "Profile Views": 2605,
+      "Likes": 8668,
+      "Comments": 49,
+      "Shares": 322
+    },
+    {
+      "date": "2025-10-07",
+      "Video Views": 183851,
+      "Profile Views": 2048,
+      "Likes": 7545,
+      "Comments": 42,
+      "Shares": 2545
+    },
+    {
+      "date": "2025-10-08",
+      "Video Views": 146245,
+      "Profile Views": 1614,
+      "Likes": 4930,
+      "Comments": 30,
+      "Shares": 156
+    },
+    {
+      "date": "2025-10-09",
+      "Video Views": 108993,
+      "Profile Views": 1086,
+      "Likes": 3535,
+      "Comments": 19,
+      "Shares": 125
+    },
+    {
+      "date": "2025-10-10",
+      "Video Views": 117994,
+      "Profile Views": 1302,
+      "Likes": 3939,
+      "Comments": 15,
+      "Shares": 140
+    },
+    {
+      "date": "2025-10-11",
+      "Video Views": 108774,
+      "Profile Views": 1168,
+      "Likes": 3405,
+      "Comments": 36,
+      "Shares": 133
+    },
+    {
+      "date": "2025-10-12",
+      "Video Views": 93106,
+      "Profile Views": 1064,
+      "Likes": 3054,
+      "Comments": 20,
+      "Shares": 137
+    },
+    {
+      "date": "2025-10-13",
+      "Video Views": 90549,
+      "Profile Views": 1064,
+      "Likes": 3117,
+      "Comments": 15,
+      "Shares": 138
+    },
+    {
+      "date": "2025-10-14",
+      "Video Views": 65713,
+      "Profile Views": 866,
+      "Likes": 2064,
+      "Comments": 14,
+      "Shares": 71
+    },
+    {
+      "date": "2025-10-15",
+      "Video Views": 51453,
+      "Profile Views": 555,
+      "Likes": 1570,
+      "Comments": 15,
+      "Shares": 51
+    },
+    {
+      "date": "2025-10-16",
+      "Video Views": 50964,
+      "Profile Views": 616,
+      "Likes": 1692,
+      "Comments": 8,
+      "Shares": 60
+    },
+    {
+      "date": "2025-10-17",
+      "Video Views": 20258,
+      "Profile Views": 288,
+      "Likes": 688,
+      "Comments": 5,
+      "Shares": 16
+    },
+    {
+      "date": "2025-10-18",
+      "Video Views": 16879,
+      "Profile Views": 179,
+      "Likes": 621,
+      "Comments": 7,
+      "Shares": 29
+    },
+    {
+      "date": "2025-10-19",
+      "Video Views": 15839,
+      "Profile Views": 178,
+      "Likes": 602,
+      "Comments": 6,
+      "Shares": 17
+    },
+    {
+      "date": "2025-10-20",
+      "Video Views": 14945,
+      "Profile Views": 188,
+      "Likes": 571,
+      "Comments": 4,
+      "Shares": 19
+    },
+    {
+      "date": "2025-10-21",
+      "Video Views": 10512,
+      "Profile Views": 133,
+      "Likes": 414,
+      "Comments": 2,
+      "Shares": 14
+    },
+    {
+      "date": "2025-10-22",
+      "Video Views": 12689,
+      "Profile Views": 150,
+      "Likes": 495,
+      "Comments": 4,
+      "Shares": 17
+    },
+    {
+      "date": "2025-10-23",
+      "Video Views": 16305,
+      "Profile Views": 182,
+      "Likes": 593,
+      "Comments": 1,
+      "Shares": 17
+    },
+    {
+      "date": "2025-10-24",
+      "Video Views": 14671,
+      "Profile Views": 168,
+      "Likes": 554,
+      "Comments": 1,
+      "Shares": 16
+    },
+    {
+      "date": "2025-10-25",
+      "Video Views": 12529,
+      "Profile Views": 161,
+      "Likes": 592,
+      "Comments": 8,
+      "Shares": 30
+    },
+    {
+      "date": "2025-10-26",
+      "Video Views": 14702,
+      "Profile Views": 179,
+      "Likes": 712,
+      "Comments": 14,
+      "Shares": 20
+    },
+    {
+      "date": "2025-10-27",
+      "Video Views": 25602,
+      "Profile Views": 298,
+      "Likes": 1103,
+      "Comments": 9,
+      "Shares": 68
+    },
+    {
+      "date": "2025-10-28",
+      "Video Views": 24503,
+      "Profile Views": 303,
+      "Likes": 1032,
+      "Comments": 9,
+      "Shares": 51
+    },
+    {
+      "date": "2025-10-29",
+      "Video Views": 23156,
+      "Profile Views": 300,
+      "Likes": 998,
+      "Comments": 10,
+      "Shares": 69
+    },
+    {
+      "date": "2025-10-30",
+      "Video Views": 21212,
+      "Profile Views": 297,
+      "Likes": 1034,
+      "Comments": 13,
+      "Shares": 61
+    },
+    {
+      "date": "2025-10-31",
+      "Video Views": 26568,
+      "Profile Views": 301,
+      "Likes": 1243,
+      "Comments": 8,
+      "Shares": 52
+    },
+    {
+      "date": "2025-11-01",
+      "Video Views": 20326,
+      "Profile Views": 246,
+      "Likes": 1199,
+      "Comments": 17,
+      "Shares": 55
+    },
+    {
+      "date": "2025-11-02",
+      "Video Views": 16865,
+      "Profile Views": 200,
+      "Likes": 949,
+      "Comments": 9,
+      "Shares": 45
+    },
+    {
+      "date": "2025-11-03",
+      "Video Views": 9991,
+      "Profile Views": 115,
+      "Likes": 464,
+      "Comments": 5,
+      "Shares": 30
+    },
+    {
+      "date": "2025-11-04",
+      "Video Views": 7654,
+      "Profile Views": 91,
+      "Likes": 417,
+      "Comments": 8,
+      "Shares": 17
+    },
+    {
+      "date": "2025-11-05",
+      "Video Views": 6251,
+      "Profile Views": 82,
+      "Likes": 345,
+      "Comments": 4,
+      "Shares": 17
+    },
+    {
+      "date": "2025-11-06",
+      "Video Views": 7500,
+      "Profile Views": 98,
+      "Likes": 423,
+      "Comments": 3,
+      "Shares": 20
+    },
+    {
+      "date": "2025-11-07",
+      "Video Views": 7623,
+      "Profile Views": 96,
+      "Likes": 370,
+      "Comments": 4,
+      "Shares": 11
+    },
+    {
+      "date": "2025-11-08",
+      "Video Views": 8597,
+      "Profile Views": 100,
+      "Likes": 447,
+      "Comments": 2,
+      "Shares": 22
+    },
+    {
+      "date": "2025-11-09",
+      "Video Views": 9084,
+      "Profile Views": 112,
+      "Likes": 399,
+      "Comments": 1,
+      "Shares": 30
+    },
+    {
+      "date": "2025-11-10",
+      "Video Views": 9114,
+      "Profile Views": 118,
+      "Likes": 350,
+      "Comments": 3,
+      "Shares": 12
+    },
+    {
+      "date": "2025-11-11",
+      "Video Views": 6966,
+      "Profile Views": 96,
+      "Likes": 330,
+      "Comments": 1,
+      "Shares": 22
+    },
+    {
+      "date": "2025-11-12",
+      "Video Views": 8415,
+      "Profile Views": 102,
+      "Likes": 395,
+      "Comments": 1,
+      "Shares": 39
+    },
+    {
+      "date": "2025-11-13",
+      "Video Views": 6694,
+      "Profile Views": 91,
+      "Likes": 342,
+      "Comments": 0,
+      "Shares": 16
+    },
+    {
+      "date": "2025-11-14",
+      "Video Views": 11337,
+      "Profile Views": 150,
+      "Likes": 486,
+      "Comments": 1,
+      "Shares": 25
+    },
+    {
+      "date": "2025-11-15",
+      "Video Views": 6145,
+      "Profile Views": 86,
+      "Likes": 257,
+      "Comments": -1,
+      "Shares": 11
+    },
+    {
+      "date": "2025-11-16",
+      "Video Views": 7406,
+      "Profile Views": 121,
+      "Likes": 316,
+      "Comments": 1,
+      "Shares": 16
+    },
+    {
+      "date": "2025-11-17",
+      "Video Views": 6157,
+      "Profile Views": 88,
+      "Likes": 231,
+      "Comments": 1,
+      "Shares": 15
+    },
+    {
+      "date": "2025-11-18",
+      "Video Views": 5077,
+      "Profile Views": 99,
+      "Likes": 199,
+      "Comments": 1,
+      "Shares": 12
+    },
+    {
+      "date": "2025-11-19",
+      "Video Views": 5262,
+      "Profile Views": 64,
+      "Likes": 241,
+      "Comments": 2,
+      "Shares": 16
+    },
+    {
+      "date": "2025-11-20",
+      "Video Views": 5161,
+      "Profile Views": 82,
+      "Likes": 249,
+      "Comments": 1,
+      "Shares": 12
+    },
+    {
+      "date": "2025-11-21",
+      "Video Views": 5909,
+      "Profile Views": 87,
+      "Likes": 252,
+      "Comments": 0,
+      "Shares": 13
+    },
+    {
+      "date": "2025-11-22",
+      "Video Views": 6095,
+      "Profile Views": 75,
+      "Likes": 269,
+      "Comments": 0,
+      "Shares": 6
+    },
+    {
+      "date": "2025-11-23",
+      "Video Views": 5250,
+      "Profile Views": 64,
+      "Likes": 259,
+      "Comments": 2,
+      "Shares": 7
+    },
+    {
+      "date": "2025-11-24",
+      "Video Views": 5000,
+      "Profile Views": 71,
+      "Likes": 235,
+      "Comments": 2,
+      "Shares": 7
+    },
+    {
+      "date": "2025-11-25",
+      "Video Views": 5300,
+      "Profile Views": 90,
+      "Likes": 252,
+      "Comments": 3,
+      "Shares": 14
+    },
+    {
+      "date": "2025-11-26",
+      "Video Views": 3482,
+      "Profile Views": 43,
+      "Likes": 161,
+      "Comments": 3,
+      "Shares": 4
+    },
+    {
+      "date": "2025-11-27",
+      "Video Views": 4420,
+      "Profile Views": 63,
+      "Likes": 218,
+      "Comments": 0,
+      "Shares": 8
+    },
+    {
+      "date": "2025-11-28",
+      "Video Views": 4798,
+      "Profile Views": 52,
+      "Likes": 253,
+      "Comments": 1,
+      "Shares": 7
+    },
+    {
+      "date": "2025-11-29",
+      "Video Views": 4103,
+      "Profile Views": 38,
+      "Likes": 211,
+      "Comments": 2,
+      "Shares": 8
+    },
+    {
+      "date": "2025-11-30",
+      "Video Views": 4297,
+      "Profile Views": 46,
+      "Likes": 208,
+      "Comments": 2,
+      "Shares": 3
+    },
+    {
+      "date": "2025-12-01",
+      "Video Views": 3507,
+      "Profile Views": 41,
+      "Likes": 142,
+      "Comments": 2,
+      "Shares": 10
+    },
+    {
+      "date": "2025-12-02",
+      "Video Views": 2675,
+      "Profile Views": 30,
+      "Likes": 122,
+      "Comments": 1,
+      "Shares": 4
+    },
+    {
+      "date": "2025-12-03",
+      "Video Views": 3125,
+      "Profile Views": 33,
+      "Likes": 152,
+      "Comments": 0,
+      "Shares": 8
+    },
+    {
+      "date": "2025-12-04",
+      "Video Views": 3740,
+      "Profile Views": 46,
+      "Likes": 149,
+      "Comments": 1,
+      "Shares": 6
+    },
+    {
+      "date": "2025-12-05",
+      "Video Views": 4584,
+      "Profile Views": 36,
+      "Likes": 177,
+      "Comments": 0,
+      "Shares": 4
+    },
+    {
+      "date": "2025-12-06",
+      "Video Views": 3027,
+      "Profile Views": 30,
+      "Likes": 123,
+      "Comments": 0,
+      "Shares": 4
+    },
+    {
+      "date": "2025-12-07",
+      "Video Views": 2081,
+      "Profile Views": 21,
+      "Likes": 103,
+      "Comments": 0,
+      "Shares": 5
+    },
+    {
+      "date": "2025-12-08",
+      "Video Views": 2127,
+      "Profile Views": 19,
+      "Likes": 86,
+      "Comments": 1,
+      "Shares": 7
+    },
+    {
+      "date": "2025-12-09",
+      "Video Views": 1547,
+      "Profile Views": 10,
+      "Likes": 83,
+      "Comments": 1,
+      "Shares": 2
+    },
+    {
+      "date": "2025-12-10",
+      "Video Views": 1574,
+      "Profile Views": 17,
+      "Likes": 91,
+      "Comments": -1,
+      "Shares": 25
+    },
+    {
+      "date": "2025-12-11",
+      "Video Views": 1400,
+      "Profile Views": 16,
+      "Likes": 89,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2025-12-12",
+      "Video Views": 1657,
+      "Profile Views": 20,
+      "Likes": 101,
+      "Comments": 2,
+      "Shares": 8
+    },
+    {
+      "date": "2025-12-13",
+      "Video Views": 1209,
+      "Profile Views": 14,
+      "Likes": 74,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2025-12-14",
+      "Video Views": 1363,
+      "Profile Views": 16,
+      "Likes": 65,
+      "Comments": -1,
+      "Shares": 2
+    },
+    {
+      "date": "2025-12-15",
+      "Video Views": 1039,
+      "Profile Views": 22,
+      "Likes": 45,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-16",
+      "Video Views": 1080,
+      "Profile Views": 8,
+      "Likes": 50,
+      "Comments": 0,
+      "Shares": 2
+    },
+    {
+      "date": "2025-12-17",
+      "Video Views": 1286,
+      "Profile Views": 24,
+      "Likes": 65,
+      "Comments": 0,
+      "Shares": 4
+    },
+    {
+      "date": "2025-12-18",
+      "Video Views": 1297,
+      "Profile Views": 17,
+      "Likes": 69,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2025-12-19",
+      "Video Views": 1205,
+      "Profile Views": 13,
+      "Likes": 50,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2025-12-20",
+      "Video Views": 1274,
+      "Profile Views": 12,
+      "Likes": 56,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-21",
+      "Video Views": 915,
+      "Profile Views": 14,
+      "Likes": 38,
+      "Comments": 1,
+      "Shares": 1
+    },
+    {
+      "date": "2025-12-22",
+      "Video Views": 822,
+      "Profile Views": 10,
+      "Likes": 30,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-23",
+      "Video Views": 1118,
+      "Profile Views": 13,
+      "Likes": 45,
+      "Comments": -1,
+      "Shares": 4
+    },
+    {
+      "date": "2025-12-24",
+      "Video Views": 997,
+      "Profile Views": 8,
+      "Likes": 52,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-25",
+      "Video Views": 683,
+      "Profile Views": 3,
+      "Likes": 35,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-26",
+      "Video Views": 951,
+      "Profile Views": 13,
+      "Likes": 49,
+      "Comments": 2,
+      "Shares": 0
+    },
+    {
+      "date": "2025-12-27",
+      "Video Views": 943,
+      "Profile Views": 4,
+      "Likes": 44,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2025-12-28",
+      "Video Views": 1011,
+      "Profile Views": 14,
+      "Likes": 70,
+      "Comments": 0,
+      "Shares": 6
+    },
+    {
+      "date": "2025-12-29",
+      "Video Views": 1283,
+      "Profile Views": 12,
+      "Likes": 79,
+      "Comments": 1,
+      "Shares": 6
+    },
+    {
+      "date": "2025-12-30",
+      "Video Views": 1340,
+      "Profile Views": 9,
+      "Likes": 77,
+      "Comments": -1,
+      "Shares": 2
+    },
+    {
+      "date": "2025-12-31",
+      "Video Views": 1388,
+      "Profile Views": 19,
+      "Likes": 89,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-01",
+      "Video Views": 905,
+      "Profile Views": 4,
+      "Likes": 67,
+      "Comments": 3,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-02",
+      "Video Views": 929,
+      "Profile Views": 13,
+      "Likes": 50,
+      "Comments": 0,
+      "Shares": 2
+    },
+    {
+      "date": "2026-01-03",
+      "Video Views": 1110,
+      "Profile Views": 14,
+      "Likes": 62,
+      "Comments": 0,
+      "Shares": 2
+    },
+    {
+      "date": "2026-01-04",
+      "Video Views": 1281,
+      "Profile Views": 13,
+      "Likes": 96,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-05",
+      "Video Views": 1315,
+      "Profile Views": 12,
+      "Likes": 97,
+      "Comments": 0,
+      "Shares": 3
+    },
+    {
+      "date": "2026-01-06",
+      "Video Views": 995,
+      "Profile Views": 15,
+      "Likes": 72,
+      "Comments": 0,
+      "Shares": 5
+    },
+    {
+      "date": "2026-01-07",
+      "Video Views": 1035,
+      "Profile Views": 10,
+      "Likes": 67,
+      "Comments": 1,
+      "Shares": 6
+    },
+    {
+      "date": "2026-01-08",
+      "Video Views": 1251,
+      "Profile Views": 15,
+      "Likes": 82,
+      "Comments": 0,
+      "Shares": 4
+    },
+    {
+      "date": "2026-01-09",
+      "Video Views": 996,
+      "Profile Views": 10,
+      "Likes": 76,
+      "Comments": 1,
+      "Shares": 1
+    },
+    {
+      "date": "2026-01-10",
+      "Video Views": 842,
+      "Profile Views": 6,
+      "Likes": 76,
+      "Comments": 1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-11",
+      "Video Views": 775,
+      "Profile Views": 9,
+      "Likes": 64,
+      "Comments": 1,
+      "Shares": 1
+    },
+    {
+      "date": "2026-01-12",
+      "Video Views": 340,
+      "Profile Views": 3,
+      "Likes": 11,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-01-13",
+      "Video Views": 237,
+      "Profile Views": 2,
+      "Likes": 5,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-14",
+      "Video Views": 224,
+      "Profile Views": 4,
+      "Likes": 7,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-15",
+      "Video Views": 229,
+      "Profile Views": 2,
+      "Likes": 6,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-16",
+      "Video Views": 165,
+      "Profile Views": 5,
+      "Likes": 6,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-17",
+      "Video Views": 205,
+      "Profile Views": 5,
+      "Likes": 5,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-18",
+      "Video Views": 172,
+      "Profile Views": 3,
+      "Likes": 3,
+      "Comments": 2,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-19",
+      "Video Views": 217,
+      "Profile Views": 3,
+      "Likes": 6,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-20",
+      "Video Views": 163,
+      "Profile Views": 3,
+      "Likes": 4,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-21",
+      "Video Views": 200,
+      "Profile Views": 4,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-01-22",
+      "Video Views": 184,
+      "Profile Views": 3,
+      "Likes": 7,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-23",
+      "Video Views": 181,
+      "Profile Views": 1,
+      "Likes": 5,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-24",
+      "Video Views": 183,
+      "Profile Views": 3,
+      "Likes": 13,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-25",
+      "Video Views": 66,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-26",
+      "Video Views": 89,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-27",
+      "Video Views": 107,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-28",
+      "Video Views": 79,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-29",
+      "Video Views": 177,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-30",
+      "Video Views": 163,
+      "Profile Views": 2,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-01-31",
+      "Video Views": 48,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-01",
+      "Video Views": 75,
+      "Profile Views": 4,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-02",
+      "Video Views": 68,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-03",
+      "Video Views": 64,
+      "Profile Views": 2,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-04",
+      "Video Views": 45,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-05",
+      "Video Views": 61,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-06",
+      "Video Views": 55,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-07",
+      "Video Views": 64,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-08",
+      "Video Views": 68,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": -3,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-09",
+      "Video Views": 62,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-10",
+      "Video Views": 46,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-11",
+      "Video Views": 54,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-12",
+      "Video Views": 113,
+      "Profile Views": 2,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-13",
+      "Video Views": 61,
+      "Profile Views": 4,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-14",
+      "Video Views": 59,
+      "Profile Views": 3,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-15",
+      "Video Views": 40,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-16",
+      "Video Views": 52,
+      "Profile Views": 3,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-17",
+      "Video Views": 95,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-18",
+      "Video Views": 67,
+      "Profile Views": 3,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-19",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-20",
+      "Video Views": 43,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-21",
+      "Video Views": 31,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-22",
+      "Video Views": 54,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-23",
+      "Video Views": 51,
+      "Profile Views": 3,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-24",
+      "Video Views": 37,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-25",
+      "Video Views": 48,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-26",
+      "Video Views": 53,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-27",
+      "Video Views": 48,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-02-28",
+      "Video Views": 44,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-01",
+      "Video Views": 43,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-02",
+      "Video Views": 47,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-03",
+      "Video Views": 35,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-04",
+      "Video Views": 37,
+      "Profile Views": 4,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-05",
+      "Video Views": 31,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-06",
+      "Video Views": 47,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-07",
+      "Video Views": 46,
+      "Profile Views": 2,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-08",
+      "Video Views": 25,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-09",
+      "Video Views": 42,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-10",
+      "Video Views": 43,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-11",
+      "Video Views": 100,
+      "Profile Views": 2,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-12",
+      "Video Views": 94,
+      "Profile Views": 5,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-03-13",
+      "Video Views": 65,
+      "Profile Views": 2,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-14",
+      "Video Views": 64,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-15",
+      "Video Views": 90,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-16",
+      "Video Views": 91,
+      "Profile Views": 0,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-17",
+      "Video Views": 74,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-18",
+      "Video Views": 65,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-19",
+      "Video Views": 76,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-20",
+      "Video Views": 78,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-21",
+      "Video Views": 54,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-22",
+      "Video Views": 77,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-23",
+      "Video Views": 55,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-24",
+      "Video Views": 41,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-25",
+      "Video Views": 42,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-26",
+      "Video Views": 33,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-27",
+      "Video Views": 51,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-28",
+      "Video Views": 42,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-29",
+      "Video Views": 31,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-30",
+      "Video Views": 38,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-03-31",
+      "Video Views": 28,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-01",
+      "Video Views": 38,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-02",
+      "Video Views": 52,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-03",
+      "Video Views": 34,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-04",
+      "Video Views": 33,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-05",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-06",
+      "Video Views": 32,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-07",
+      "Video Views": 30,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-08",
+      "Video Views": 31,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-09",
+      "Video Views": 23,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-10",
+      "Video Views": 19,
+      "Profile Views": 3,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-11",
+      "Video Views": 29,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-12",
+      "Video Views": 25,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-13",
+      "Video Views": 29,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-14",
+      "Video Views": 28,
+      "Profile Views": 4,
+      "Likes": 2,
+      "Comments": -2,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-15",
+      "Video Views": 33,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-16",
+      "Video Views": 25,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-17",
+      "Video Views": 19,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-18",
+      "Video Views": 22,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-19",
+      "Video Views": 23,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-20",
+      "Video Views": 18,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-21",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-22",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-23",
+      "Video Views": 25,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-24",
+      "Video Views": 22,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-25",
+      "Video Views": 34,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-26",
+      "Video Views": 30,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-27",
+      "Video Views": 39,
+      "Profile Views": 3,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-28",
+      "Video Views": 37,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-29",
+      "Video Views": 27,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-04-30",
+      "Video Views": 28,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-01",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-02",
+      "Video Views": 26,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": -4,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-03",
+      "Video Views": 38,
+      "Profile Views": 1,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-04",
+      "Video Views": 26,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-05",
+      "Video Views": 21,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-06",
+      "Video Views": 18,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-07",
+      "Video Views": 28,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-08",
+      "Video Views": 32,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-09",
+      "Video Views": 26,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-10",
+      "Video Views": 35,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-11",
+      "Video Views": 21,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-12",
+      "Video Views": 14,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-13",
+      "Video Views": 25,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-14",
+      "Video Views": 24,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-15",
+      "Video Views": 25,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-16",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-17",
+      "Video Views": 17,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-18",
+      "Video Views": 35,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-19",
+      "Video Views": 31,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-20",
+      "Video Views": 10,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-21",
+      "Video Views": 22,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-22",
+      "Video Views": 14,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-23",
+      "Video Views": 27,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-24",
+      "Video Views": 20,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-25",
+      "Video Views": 27,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-26",
+      "Video Views": 30,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-27",
+      "Video Views": 30,
+      "Profile Views": 1,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-28",
+      "Video Views": 30,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-29",
+      "Video Views": 35,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-05-30",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-05-31",
+      "Video Views": 24,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-01",
+      "Video Views": 22,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-02",
+      "Video Views": 31,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-03",
+      "Video Views": 16,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-04",
+      "Video Views": 18,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-05",
+      "Video Views": 28,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-06",
+      "Video Views": 14,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-07",
+      "Video Views": 23,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-08",
+      "Video Views": 20,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-09",
+      "Video Views": 11,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-10",
+      "Video Views": 20,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-06-11",
+      "Video Views": 28,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-12",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-13",
+      "Video Views": 20,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-14",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-15",
+      "Video Views": 40,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-16",
+      "Video Views": 27,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-17",
+      "Video Views": 26,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-18",
+      "Video Views": 19,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-19",
+      "Video Views": 25,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-20",
+      "Video Views": 12,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-21",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-22",
+      "Video Views": 30,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-23",
+      "Video Views": 24,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-24",
+      "Video Views": 22,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-25",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-26",
+      "Video Views": 19,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-27",
+      "Video Views": 16,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-28",
+      "Video Views": 13,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-29",
+      "Video Views": 32,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-06-30",
+      "Video Views": 20,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-01",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-02",
+      "Video Views": 22,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-03",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-04",
+      "Video Views": 20,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-05",
+      "Video Views": 43,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-06",
+      "Video Views": 22,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-07",
+      "Video Views": 15,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-08",
+      "Video Views": 22,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-09",
+      "Video Views": 22,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-10",
+      "Video Views": 22,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-11",
+      "Video Views": 19,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-12",
+      "Video Views": 16,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-13",
+      "Video Views": 14,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-14",
+      "Video Views": 32,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-15",
+      "Video Views": 30,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-16",
+      "Video Views": 9,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-17",
+      "Video Views": 26,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-18",
+      "Video Views": 18,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-19",
+      "Video Views": 19,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-20",
+      "Video Views": 25,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-21",
+      "Video Views": 18,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-22",
+      "Video Views": 23,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-23",
+      "Video Views": 20,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-24",
+      "Video Views": 44,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-25",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-26",
+      "Video Views": 46,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-27",
+      "Video Views": 32,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-28",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-29",
+      "Video Views": 23,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": -1,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-30",
+      "Video Views": 36,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-07-31",
+      "Video Views": 25,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-01",
+      "Video Views": 30,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-02",
+      "Video Views": 11,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-03",
+      "Video Views": 23,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-04",
+      "Video Views": 14,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-05",
+      "Video Views": 40,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-06",
+      "Video Views": 28,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-07",
+      "Video Views": 21,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-08",
+      "Video Views": 14,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-09",
+      "Video Views": 16,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-10",
+      "Video Views": 24,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-11",
+      "Video Views": 19,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-12",
+      "Video Views": 29,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-13",
+      "Video Views": 22,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-14",
+      "Video Views": 29,
+      "Profile Views": 1,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-15",
+      "Video Views": 30,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-16",
+      "Video Views": 31,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 1
+    },
+    {
+      "date": "2026-08-17",
+      "Video Views": 15,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-18",
+      "Video Views": 20,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-19",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-20",
+      "Video Views": 20,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-21",
+      "Video Views": 11,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-22",
+      "Video Views": 47,
+      "Profile Views": 0,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-23",
+      "Video Views": 66,
+      "Profile Views": 2,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-24",
+      "Video Views": 46,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-25",
+      "Video Views": 48,
+      "Profile Views": 2,
+      "Likes": 2,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-26",
+      "Video Views": 42,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-27",
+      "Video Views": 39,
+      "Profile Views": 0,
+      "Likes": 3,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-28",
+      "Video Views": 43,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-29",
+      "Video Views": 29,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-30",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-08-31",
+      "Video Views": 36,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-01",
+      "Video Views": 29,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-02",
+      "Video Views": 31,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-03",
+      "Video Views": 31,
+      "Profile Views": 2,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-04",
+      "Video Views": 33,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-05",
+      "Video Views": 36,
+      "Profile Views": 1,
+      "Likes": 5,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-06",
+      "Video Views": 27,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-07",
+      "Video Views": 29,
+      "Profile Views": 1,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-08",
+      "Video Views": 23,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-09",
+      "Video Views": 17,
+      "Profile Views": 0,
+      "Likes": 1,
+      "Comments": 0,
+      "Shares": 0
+    },
+    {
+      "date": "2026-09-10",
+      "Video Views": 15,
+      "Profile Views": 0,
+      "Likes": 0,
+      "Comments": 0,
+      "Shares": 0
+    }
+  ],
+  "posts": [
+    {
+      "id": "7543666837599423766",
+      "title": "Les grands méchants",
+      "family": "Méchants réalistes",
+      "caption": "One Piece : les plus grands méchants de Grand Line en version réaliste ⚡👑. De Doflamingo à Kaido, ils sont plus terrifiants que jamais… #onepiece #doflamingo #kaido #bigmom #anime ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7543666837599423766",
+      "post_date_label": "28 août",
+      "views": 1807289,
+      "likes": 57996,
+      "comments": 362,
+      "shares": 3405,
+      "interaction_rate": 3.417,
+      "shares_per_1000": 1.884
+    },
+    {
+      "id": "7556003118211779862",
+      "title": "Robin, Kid, Boa et compagnie",
+      "family": "Format à identifier",
+      "caption": "🪶 Nico Robin – L’archéologue de l’ombre Nico Robin, l’érudite des Mugiwara, incarne la sagesse et le mystère. Capable de lire les Poneglyphes, elle détient les clés de l’histoire oubliée et du Siècle Manquant. Derrière son calme élégant et son regard perçant se cache une survivante recherchée par le Gouvernement mondial. Entre secrets anciens, missions clandestines et savoir interdit, Robin est bien plus qu’une simple pirate : elle est la mémoire vivante de One Piece. ⸻ 🔥 Eustass Kid – L’anarchie en personne Eustass “Captain” Kid est l’un des Supernovae les plus redoutés de la pire génération. Impulsif, violent et ambitieux, il rêve de détrôner les Yonkō et d’imposer sa propre loi sur les mers. Grâce à son Fruit du Démon magnétique, Kid transforme le champ de bataille en arsenal dévastateur. Son alliance fragile avec Luffy et Law n’efface jamais son instinct de rival, et sa haine envers Shanks et Kaido le pousse toujours plus loin dans la folie de la conquête. ⸻ 👑 Boa Hancock – La beauté qui fait plier les Empires Impératrice d’Amazon Lily et seule femme Shichibukai, Boa Hancock combine puissance, charme et fierté absolue. Sa beauté légendaire pétrifie littéralement ses ennemis, tandis que sa force martiale rivalise avec celle des plus grands. Amoureuse de Luffy malgré son orgueil, elle reste l’un des personnages les plus fascinants et imprévisibles de One Piece, capable de passer d’une froideur impériale à une tendresse désarmante en un instant. ⸻ 🪶 Donquixote Doflamingo – Le roi déchu Ancien noble céleste devenu roi pirate, Doflamingo symbolise la cruauté, la manipulation et le chaos. Maître du fil, il tire littéralement les ficelles du monde souterrain et orchestre guerres, trafics et conspirations. Son règne sur Dressrosa a marqué l’histoire par sa brutalité et son arrogance divine. Même vaincu, Doflamingo reste l’un des antagonistes les plus emblématiques de la saga One Piece, incarnation de l’ambition corrompue et de la vengeance. ⸻ ⚔️ Roronoa Zoro – L’épéiste aux trois sabres Roronoa Zoro, bras droit de Luffy et chasseur de pirates légendaire, incarne l’honneur et la détermination pure. Sa maîtrise du Santoryu, ses combats épiques et son objectif d’être le meilleur sabreur du monde en font l’un des personnages les plus respectés de l’univers. Loyal jusqu’au sacrifice, Zoro traverse les mers comme une lame affûtée : silencieux, implacable et prêt à tout pour protéger ses nakama. ⸻ 🐉 Yamato – L’héritière rebelle Fille de Kaido, Yamato rejette son héritage pour embrasser l’idéal d’Oden Kozuki. Puissante, libre et farouche, elle mêle force brute et cœur de samouraï. Sa lutte contre son père symbolise la rébellion contre la tyrannie, et son rêve d’exploration fait d’elle une alliée naturelle des Chapeaux de Paille. Dans l’univers de One Piece, Yamato est la preuve que l’on peut choisir sa destinée, même face au poids du sang. ⸻ 🫣 Tony Tony Chopper – L’âme du cœur des Mugiwara Médecin de l’équipage et ancien renne rejeté, Chopper est la preuve vivante que la différence est une force. Grâce au Hito Hito no Mi, il oscille entre douceur enfantine et puissance monstrueuse. Plus qu’un soigneur, il est le cœur émotionnel des Chapeaux de Paille, celui qui guérit les corps comme les âmes. Derrière son apparence adorable se cache un héros prêt à risquer sa vie pour ses amis et ses idéaux #onepiece #onepieceliveaction ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7556003118211779862",
+      "post_date_label": "30 septembre",
+      "views": 719508,
+      "likes": 28530,
+      "comments": 137,
+      "shares": 962,
+      "interaction_rate": 4.118,
+      "shares_per_1000": 1.337
+    },
+    {
+      "id": "7560465541811522838",
+      "title": "Behind the Scenes · Part 3",
+      "family": "Coulisses",
+      "caption": "🎬 ONE PIECE – Behind the Scenes (Part 3) 🌊 What if the world of One Piece came to life on a movie set? In this exclusive behind-the-scenes reel, step onto the live-action set and discover the legends of the seas — reimagined like never before. From blazing powers to icy tempers, here’s what really happens when the Grand Line meets Hollywood. ⸻ 🔥 Portgas D. Ace – Between takes, Ace still steals the spotlight. The actor laughs with the crew, flames flickering across his hands from the Mera Mera no Mi. Everyone stops to watch him — the living embodiment of fire, freedom, and brotherhood. The camera loves him almost as much as fans do. ⸻ 🍰 Big Mom (Charlotte Linlin) – A true diva on set. Her towering presence, extravagant costume, and wild laugh fill the entire studio. Between shots, she’s sipping tea and demanding more cake props. The crew stays alert — one wrong move and you might end up as part of her “family.” ⸻ 🍷 Shanks – Calm, collected, and effortlessly cool. Even off-camera, Shanks commands respect. The red coat, the iconic scar, the grin — he doesn’t need special effects to look legendary. Every time the director yells “cut,” it feels like a scene straight from One Piece Film Red. ⸻ ❄️ Aokiji (Kuzan) – Always chill — literally. Between takes, he’s sitting quietly, fog from the ice machines swirling around him. His half-lidded eyes and slow tone make every word sound like wisdom. Aokiji brings the “coolest” vibe to the set — no pun intended. ⸻ 💙 Vivi Nefertari – Elegant and poised, Vivi’s scenes radiate grace. The actress wears her Alabasta gown with pride, smiling between shots and greeting every crew member. Her compassion on-screen feels so real it melts even the iciest hearts — yes, even Aokiji’s. ⸻ 💰 Nami – Always checking the map and the lighting. On set, Nami runs the show like a true navigator. Between shots, she’s teasing the crew about their pay rates and fixing her hair with the same confidence she uses to face Arlong. Her energy is pure charisma and chaos. ⸻ 🕊️ Monet – Hauntingly beautiful, Monet moves like she’s gliding through snow. The harpy wings shimmer under the studio lights, and fake frost dusts the air. Between takes, she smiles softly, almost breaking character. Cold on camera, warm in person — that’s her secret power. #onepiece #behindthescene #onepieceliveaction ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7560465541811522838",
+      "post_date_label": "13 octobre",
+      "views": 150785,
+      "likes": 10751,
+      "comments": 106,
+      "shares": 439,
+      "interaction_rate": 7.491,
+      "shares_per_1000": 2.911
+    },
+    {
+      "id": "7565294981427154179",
+      "title": "Ultimate Live Action Compilation",
+      "family": "Compilation live action",
+      "caption": "🎬 ONE PIECE – The Ultimate Live Action Compilation A cinematic tribute to the most iconic characters of One Piece,  reimagined in a stunning, realistic style that brings the anime to life. Each scene captures the energy, personality, and emotion that make this universe legendary. ⚡ Eustass Kid – The wild energy of the New World. Brutal charisma, magnetic chaos, and the spirit of rebellion personified. 🍩 Katakuri – Discipline meets perfection. Silent power, sharp eyes, and an elegance that commands respect. 💰 Nami – The navigator who steals hearts and gold alike. Intelligence, charm, and ambition in one unstoppable force. ⚔️ Dracule Mihawk – Calm, deadly precision. The world’s greatest swordsman, reborn with a cinematic presence worthy of legend. ⚖️ Trafalgar Law – The Surgeon of Death, cool and collected. Every move calculated, every glance hiding a deeper purpose. 💋 Reiju Vinsmoke – Elegance with a dangerous edge. The Germa princess who combines compassion and power. 🎎 Hiyori Kozuki – The soul of Wano. Grace, loyalty, and quiet strength glowing beneath the mask of royalty. 🔥 Portgas D. Ace – The flame that never dies. Freedom, brotherhood, and the will to protect at any cost. 🦈 Shanks – The red-haired legend. Calm confidence, magnetic leadership, and the mystery that defines the New Era. ☠️ Crocodile – The desert king with ambition in his veins. Ruthless charm and a voice that echoes authority. 💀 Donquixote Doflamingo – The puppet master of chaos. Smiling danger, perfect control, and unmatched charisma. 🕊️ Corazon – The quiet heart of the Donquixote family. Kindness hidden behind mystery — a symbol of silent heroism. ⚔️ Rebecca of Dressrosa – The young warrior of hope. Courage, innocence, and resilience in a shattered world. #onepiece #eustasskid #pirate ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7565294981427154179",
+      "post_date_label": "26 octobre",
+      "views": 114467,
+      "likes": 4227,
+      "comments": 35,
+      "shares": 288,
+      "interaction_rate": 3.975,
+      "shares_per_1000": 2.516
+    },
+    {
+      "id": "7551088567376809238",
+      "title": "La Marine aux Jeux",
+      "family": "Sport",
+      "caption": "Après les Chapeaux de Paille, c’est au tour de la Marine de briller loin des océans. Amiraux, vice-amiraux et officiers troquent leurs uniformes pour devenir des champions modernes. Leur puissance, leur discipline et leur charisme trouvent une nouvelle arène : celle du sport. 🥊 Koby, le boxeur prodige De timide aspirant à étoile montante, Koby impressionne par sa détermination et ses enchaînements explosifs. Chaque combat raconte son ascension. 💥 Garp, le titan du lancer de poids Toujours colossal, le Héros de la Marine projette le poids comme un boulet de canon. Une légende brute qui prouve que l’âge n’a aucune emprise sur lui. 🤼 Helmeppo, le showman du ring Musclé, arrogant, spectaculaire : Helmeppo est devenu une star de la WWE, jouant autant avec le public qu’avec ses adversaires. ⚔️ Tashigi, la guerrière du kendo Portée par sa passion du sabre, elle incarne rigueur et intensité. Chaque frappe est une revanche et une affirmation de sa volonté. ⛳ Akainu, le volcan du green Cigare au bec, Sakazuki frappe avec la rage d’une éruption. Sur le green comme sur les mers, il impose sa loi. 🏐 Hina, la bloqueuse de fer Puissante et élégante, Hina transforme le filet en mur infranchissable. Elle règne sur le sable comme sur un champ de bataille. 🚬 Smoker, l’homme au souffle infini Marathonien implacable, il court sans jamais faiblir. Chaque foulée est une traque, chaque respiration une preuve de volonté. ⚡ Kizaru, la vitesse incarnée Nonchalant au départ, foudroyant à l’arrivée. Sur la piste, Borsalino devient une lumière impossible à rattraper. 🥋 Fujitora, la force gravitationnelle Sage et massif, Issho domine le tatami. Ses projections pèsent des tonnes, ses prises écrasent comme une planète. 🚴 Aokiji, le coureur glacé Endurant et calme, Kuzan grimpe les cols comme il gelait autrefois les océans : sans effort apparent, mais avec une régularité implacable. ⸻ 👉 Après les pirates et la Marine, il reste un camp incontournable… ⚡ Et si les Grands Corsaires faisaient leur entrée dans l’arène ? Les légendes solitaires, ni pirates ni Marines, mais rois autoproclamés… prêts à tout pour dominer la compétition. 👀🔥 💬 Dis-moi en commentaire : dans quel sport verrais-tu chaque marines ? 👇 #onepiece #onepieceliveaction #sportanime #animefan ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7551088567376809238",
+      "post_date_label": "17 septembre",
+      "views": 88022,
+      "likes": 1206,
+      "comments": 18,
+      "shares": 53,
+      "interaction_rate": 1.451,
+      "shares_per_1000": 0.602
+    },
+    {
+      "id": "7559367040478235926",
+      "title": "Kaido / Doflamingo",
+      "family": "Format à identifier",
+      "caption": "#onepiece #onepieceliveaction #kaido #doflamingo #Anime",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7559367040478235926",
+      "post_date_label": "10 octobre",
+      "views": 77961,
+      "likes": 1326,
+      "comments": 12,
+      "shares": 55,
+      "interaction_rate": 1.787,
+      "shares_per_1000": 0.705
+    },
+    {
+      "id": "7549954038532525334",
+      "title": "Les Mugiwara aux Jeux",
+      "family": "Sport",
+      "caption": "Et si les héros de One Piece n’étaient pas des pirates, mais des champions du sport moderne ? ⚡🏆 Dans ce carrousel, l’équipage au Chapeau de Paille quitte Grand Line pour entrer dans l’arène… et chaque Mugiwara devient une star sportive dans une discipline qui colle à sa personnalité, son style de combat et ses rêves. ⚽ Sanji, le footballeur star Son jeu de jambes légendaire et ses coups de pied dévastateurs trouvent enfin leur terrain de prédilection : le football. Élégant, précis, explosif, Sanji devient un attaquant incontournable, capable de marquer des buts impossibles. Charisme de gentleman et flair de génie : il brille sur la pelouse comme il brille aux fourneaux. 🥊 Zoro, le combattant MMA Toujours en quête d’un défi, Zoro n’a pas quitté ses sabres pour rien. Dans la cage, il devient un lutteur redoutable, mélangeant force brute, discipline martiale et endurance inhumaine. Cicatrices, sueur, détermination : il est l’incarnation du guerrier prêt à se relever encore et encore. 🌊 Nami, la reine des vagues Navigatrice née, Nami prend les commandes d’un voilier olympique et devient une skippeuse imbattable. Avec sa maîtrise du vent et des courants, elle domine les régates, anticipe chaque mouvement et transforme la mer en terrain de jeu. Charme, intelligence et précision : une championne de voile qui garde toujours une longueur d’avance. 🤸 Luffy, l’acrobate élastique Toujours imprévisible, Luffy devient un gymnaste hors norme. Ses mouvements souples et explosifs défient la gravité, comme s’il transformait son Fruit du Démon en discipline olympique. Rires, énergie débordante, audace : il incarne l’esprit du sport dans sa forme la plus libre et sauvage. ♟️ Robin, la grande maîtresse d’échecs Dans l’univers sportif, tout ne se joue pas sur les muscles : Robin excelle sur l’échiquier. Froide, calme, stratégique, elle devient une légende des tournois d’échecs, analysant ses adversaires plusieurs coups à l’avance. Une championne cérébrale, redoutable par son intelligence. 🏎️ Franky, le pilote cyborg de Formule 1 Construit pour la vitesse et le spectacle, Franky quitte son atelier pour dominer les circuits. En pilote de F1, il incarne la fusion parfaite entre mécanique et adrénaline. Showman, excentrique, puissant : chaque virage est une démonstration de style et de force brute. 🏹 Usopp, le sniper olympique Toujours prêt à viser juste, Usopp trouve enfin un sport où son talent naturel brille : le tir à l’arc. Confiance fragile mais précision incroyable, il devient l’archer des compétitions internationales. Drôle, imprévisible mais terriblement efficace quand il faut marquer le point décisif. 🩺 Chopper, le kiné des champions Petit mais indispensable, Chopper devient le médecin du sport adoré de tous les athlètes. Toujours prêt à soigner, conseiller et encourager, il est l’âme bienveillante des vestiaires. Plus qu’une mascotte, il est le héros invisible derrière chaque victoire. ⛸️ Brook, le patineur fantôme Fin, longiligne, gracieux : Brook troque sa guitare contre des patins. En patineur artistique, il envoûte le public avec ses pirouettes et son aura fantomatique. Élégant et mystérieux, il transforme la glace en scène, et chaque figure devient un spectacle envoûtant. 🌊 Jinbe, le champion des océans Homme-poisson et maître des courants, Jinbe devient un nageur olympique légendaire. Sa puissance et sa maîtrise aquatique le rendent imbattable dans les bassins. Figure paternelle et charismatique, il est l’incarnation même de la force tranquille des mers. 👉 De pirates à sportifs, l’équipage de Luffy prouve qu’il pourrait régner autant sur les stades que sur Grand Line. ⚡ Mais ce n’est que le début… et si la Marine entrait elle aussi dans l’arène ? 👀 Dis-moi en commentaire : quel personnage de One Piece tu voudrais voir en athlète dans la Partie 2 ? 👇🔥 #onepiece #onepieceliveaction #sportanime #animefan ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7549954038532525334",
+      "post_date_label": "14 septembre",
+      "views": 77373,
+      "likes": 1775,
+      "comments": 49,
+      "shares": 99,
+      "interaction_rate": 2.485,
+      "shares_per_1000": 1.28
+    },
+    {
+      "id": "7552568478474013974",
+      "title": "Les Minks",
+      "family": "Créatures réalistes",
+      "caption": "Les Minks de One Piece, ces guerriers mi-hommes mi-animaux du pays de Zou, réimaginés en version ultra réaliste et terrifiante 🐺⚡. Entre Nekomamushi, Inuarashi, Carrot, Wanda et les autres, découvre leur puissance bestiale, leur regard sauvage et leur héritage unique dans l’univers de One Piece. #onepiece #mink #Anime #onepieceliveaction #onepieceedit ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7552568478474013974",
+      "post_date_label": "21 septembre",
+      "views": 57018,
+      "likes": 1538,
+      "comments": 26,
+      "shares": 130,
+      "interaction_rate": 2.971,
+      "shares_per_1000": 2.28
+    },
+    {
+      "id": "7543295716761046294",
+      "title": "Les premiers antagonistes",
+      "family": "Méchants réalistes",
+      "caption": "De Baggy le clown à Akainu l’impitoyable, en passant par Arlong, Crocodile et Ener, la première partie de One Piece nous a offert des antagonistes légendaires. ⚡ 👉 Quel méchant t’a marqué le plus dans cette période ? 👇 #onepiece #arlong #crocodileonepiece #akainu ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7543295716761046294",
+      "post_date_label": "27 août",
+      "views": 43083,
+      "likes": 911,
+      "comments": 28,
+      "shares": 36,
+      "interaction_rate": 2.263,
+      "shares_per_1000": 0.836
+    },
+    {
+      "id": "7557094976551701782",
+      "title": "One Piece sur un plateau",
+      "family": "Coulisses",
+      "caption": "🎬 Et si One Piece devenait enfin une série live-action digne d’Hollywood ? Dans cette vidéo inédite, plonge dans les coulisses du tournage : lumières, caméras, micros, décors réalistes… et surtout nos personnages cultes en version acteur sur un vrai plateau ! De Nico Robin à Eustass Kid, en passant par Nami, Crocodile ou Law, chacun prend vie comme jamais dans une ambiance cinématographique ultra-réaliste. Une immersion unique pour tous les fans de manga, anime, cosplay, film live-action et univers pirate. ⚓ Dis-moi en commentaire quel personnage devrait avoir son spin-off solo ! #onepiece #liveaction #sora2 ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7557094976551701782",
+      "post_date_label": "3 octobre",
+      "views": 33309,
+      "likes": 964,
+      "comments": 9,
+      "shares": 27,
+      "interaction_rate": 3.002,
+      "shares_per_1000": 0.811
+    },
+    {
+      "id": "7547424244863585558",
+      "title": "Les Grands Corsaires",
+      "family": "Personnages réalistes",
+      "caption": "One Piece : découvre les Grands Corsaires en version réaliste 🌌🔥. De Mihawk à Crocodile, ces pirates redoutés choisis par le Gouvernement Mondial dévoilent toute leur puissance et leur aura dans une incarnation plus intimidante que jamais… #onepiece #onepieceliveaction #mihawk #boahankock #Anime ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7547424244863585558",
+      "post_date_label": "7 septembre",
+      "views": 25370,
+      "likes": 454,
+      "comments": 16,
+      "shares": 26,
+      "interaction_rate": 1.955,
+      "shares_per_1000": 1.025
+    },
+    {
+      "id": "7548119864716561686",
+      "title": "Les Yonkos en politique",
+      "family": "Politique fictive",
+      "caption": "One Piece, Yonko, élections, président, Kaido, Shanks, Big Mom, Barbe Noire, Baggy, Luffy, Barbe Blanche. Et si les Empereurs des Mers, les figures les plus redoutées de l’univers de One Piece, quittaient les océans pour se lancer… dans la politique mondiale ? 🌍 Bienvenue dans ce carousel unique où les Yonkos sont réimaginés en candidats présidentiels. Chaque slide met en avant leur personnalité, leur charisme et leur vision du pouvoir, comme s’ils se présentaient à nos propres élections. Une idée folle ? Peut-être. Mais avoue que tu t’es déjà demandé : si c’était réel, pour qui voterais-tu ? ⚡ ⸻ 👑 Kaido, le dictateur militaire Dans One Piece, Kaido est connu comme la “créature la plus forte du monde”. Ici, il devient un chef d’État autoritaire, prêt à écraser ses adversaires par la peur et la puissance brute. Son slogan : la stabilité par la force. Une vision glaciale mais terriblement efficace. 🍷 Shanks, le roi diplomate Respecté aussi bien par ses ennemis que ses alliés, Shanks incarne la diplomatie, le dialogue et l’autorité charismatique. Dans notre monde, il serait le candidat consensuel, le “président idéal” que tout le monde écoute. Pas étonnant que beaucoup le voient déjà en vainqueur naturel. 🍰 Big Mom, la matriarche populiste Charlotte Linlin gouverne sa famille avec une poigne de fer. En politique, elle serait l’impératrice populiste, prônant un État où ses “enfants” sont protégés… tant qu’ils obéissent. Son style mélange générosité maternelle et menace permanente. Qui oserait voter contre elle ? ☠️ Barbe Noire, le tyran opportuniste Teach est l’incarnation du chaos, de la manipulation et de la stratégie dans l’ombre. Président, il deviendrait le symbole d’une politique de l’opportunisme, prêt à tout pour garder le pouvoir. Beaucoup le craignent, certains l’admirent, mais personne ne peut l’ignorer. 🎪 Baggy, le président clown Baggy a toujours survécu là où personne ne l’attendait, grâce à sa chance insolente et à son sens du spectacle. En politique, il serait le candidat du peuple, le showman qui fait rire, mais qui, paradoxalement, gagne du terrain. Et si c’était lui, le vrai outsider de cette élection ? 🍖 Luffy, le révolutionnaire du peuple Toujours porté par la liberté et ses convictions, Luffy est le candidat idéaliste. Celui qui promet de briser les chaînes et de redonner le pouvoir aux citoyens. Son charisme est indéniable : il incarne l’énergie de la jeunesse et l’espoir d’un avenir nouveau. Mais sa fougue suffira-t-elle ? ⚓ Barbe Blanche, le patriarche nostalgique Edward Newgate est la figure du père protecteur, du chef respecté par tous. En politique, il deviendrait le vieux lion, garant des traditions, symbole d’un âge d’or disparu. Beaucoup voteraient pour lui, par respect et nostalgie, mais son temps n’est-il pas déjà révolu ? ⸻ ✨ Ce concept, entre fiction et réalité, permet de redécouvrir les Yonkos sous un angle totalement inédit. Les voir en costumes, sur une affiche électorale, ou devant une foule, change complètement la perception que nous avons d’eux. One Piece est une œuvre de pirates et de liberté, mais l’imaginer dans le cadre rigide de la politique moderne crée un choc visuel et narratif. 👉 Et maintenant, la vraie question : pour quel Yonko voterais-tu si ces élections existaient vraiment ? Serais-tu séduit par le charisme de Shanks, convaincu par la liberté de Luffy, terrifié mais impressionné par la force de Kaido, amusé par le spectacle de Baggy, ou tenté par le pragmatisme cruel de Barbe Noire ? Dis-le en commentaire, et viens débattre avec les autres. Parce que si ces élections étaient réelles, les discussions seraient sûrement aussi épiques que les batailles de Marineford. ⚔️ #onepiece #onepieceliveaction #yonko #shanks  #kaido ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7548119864716561686",
+      "post_date_label": "9 septembre",
+      "views": 25170,
+      "likes": 355,
+      "comments": 22,
+      "shares": 17,
+      "interaction_rate": 1.565,
+      "shares_per_1000": 0.675
+    },
+    {
+      "id": "7555216160984272130",
+      "title": "Doflamingo entre en scène",
+      "family": "Format à identifier",
+      "caption": "? Doflamingo Le “Joker” du Nouveau Monde entre en scène avec son charisme malsain et son sourire démoniaque. Sa présence impose le respect autant qu’elle inspire la peur. Chaque pas reflète son ambition démesurée et son goût pour le chaos, comme un roi déchu qui n’a jamais cessé de régner. ? Rob Lucci Froid, silencieux et implacable, Lucci défile avec l’élégance d’un assassin. Son regard perçant et son port droit rappellent son passé au CP9 : l’arrogance d’un prédateur qui sait qu’aucune proie ne lui échappe. La menace se lit dans chacun de ses mouvements calculés. ? Vivi Princesse d’Alabasta, elle illumine la scène par sa grâce et son élégance naturelle. Son pas est doux mais déterminé, symbole d’une souveraine qui a choisi la paix sans jamais renoncer à sa force intérieure. Elle incarne l’espoir et la dignité au milieu des ténèbres. ? Shanks Calme, charismatique et intouchable, Shanks n’a besoin d’aucun artifice pour voler la vedette. Sa simple présence emplit la pièce d’autorité. Il marche comme un empereur qui n’a rien à prouver, chaque regard suffisant à rappeler pourquoi il est une légende vivante. ? Sanji Séducteur et raffiné, Sanji mêle charme et nonchalance dans un style impeccable. Chaque pas est une déclaration d’amour à la mode, à la cuisine et aux femmes. Derrière son sourire charmeur se cache un esprit passionné, prêt à tout pour protéger ceux qu’il aime. ? Gloriosa Ancienne impératrice Kuja, Gloriosa défile avec la confiance de celles qui ont tout vécu. Sa démarche gracieuse et fière rappelle qu’aucune époque ne peut effacer la gloire d’une reine. Elle prouve que la beauté et la puissance n’ont pas d’âge. ? Queen Excentrique et flamboyant, Queen transforme le podium en scène de spectacle. Ses gestes théâtraux et son énergie débordante attirent tous les regards. Mi-scientifique, mi-showman, il incarne le chaos et la créativité sans limites de l’univers One Piece. ? Orochi Sourire tordu, regard fourbe et allure royale, Orochi avance avec l’arrogance d’un tyran persuadé d’être aimé. Chaque mouvement transpire la duplicité, comme un serpent qui se glisse parmi les rois. Son apparition glace autant qu’elle fascine. ? Robin Mystérieuse et élégante, Robin attire l’attention sans jamais chercher à la prendre. Son regard profond raconte mille histoires, et chaque geste révèle son intelligence et sa maîtrise. Elle incarne le mystère, la classe et la puissance tranquille. #onepiece #onepieceliveaction ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7555216160984272130",
+      "post_date_label": "28 septembre",
+      "views": 21427,
+      "likes": 377,
+      "comments": 9,
+      "shares": 13,
+      "interaction_rate": 1.862,
+      "shares_per_1000": 0.607
+    },
+    {
+      "id": "7555912966902811906",
+      "title": "Interview de Robin",
+      "family": "Interview",
+      "caption": "💬 Elle balance enfin tout… Robin parle de ses crushs, ses red flags et même de son “ex boss” 🐊😏. Entre secrets de romance, piques bien placées et punchlines mythiques, cette interview va en surprendre plus d’un ! 👀🔥 👉 Et toi, lequel de l’équipage tu verrais avec elle ? 👇 #onepiece #grandlineconfessions #robin #animeinterview #tiktokanime ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7555912966902811906",
+      "post_date_label": "30 septembre",
+      "views": 16032,
+      "likes": 194,
+      "comments": 6,
+      "shares": 8,
+      "interaction_rate": 1.297,
+      "shares_per_1000": 0.499
+    },
+    {
+      "id": "7553040845184781590",
+      "title": "Les femmes de One Piece",
+      "family": "Personnages réalistes",
+      "caption": "Top des plus belles femmes de One Piece ✨👑 Dans One Piece, la beauté et la force vont souvent de pair. Qu’il s’agisse de Boa Hancock, de Nami, de Robin, de Vivi ou de Yamato, ces personnages féminins marquent autant par leur charisme que par leur histoire. Ce classement spécial met en avant les héroïnes et rivales les plus marquantes de l’univers d’Eiichiro Oda, sublimées en version live-action réaliste : regards intenses, tenues iconiques et une mise en scène cinématographique qui leur rend hommage. 👉 Et toi, qui placerais-tu en #1 ? Partage ton avis en commentaire 👇 ✨ Like & abonne-toi pour ne pas manquer les prochains tops et classements One Piece en version réaliste ! #onepiece #onepieceliveaction #waifu ",
+      "url": "https://www.tiktok.com/@realify.ai8/video/7553040845184781590",
+      "post_date_label": "23 septembre",
+      "views": 14792,
+      "likes": 302,
+      "comments": 4,
+      "shares": 13,
+      "interaction_rate": 2.157,
+      "shares_per_1000": 0.879
+    }
+  ],
+  "followers": {
+    "current": 6520,
+    "peak": {
+      "date": "2025-12-09",
+      "Followers": 6878,
+      "Difference in followers from previous day": 1
+    },
+    "net_since_peak": -358,
+    "last30_net": -25,
+    "history": [
+      {
+        "date": "2025-09-11",
+        "Followers": 375,
+        "Difference in followers from previous day": 202
+      },
+      {
+        "date": "2025-09-12",
+        "Followers": 609,
+        "Difference in followers from previous day": 234
+      },
+      {
+        "date": "2025-09-13",
+        "Followers": 650,
+        "Difference in followers from previous day": 41
+      },
+      {
+        "date": "2025-09-14",
+        "Followers": 699,
+        "Difference in followers from previous day": 49
+      },
+      {
+        "date": "2025-09-15",
+        "Followers": 774,
+        "Difference in followers from previous day": 75
+      },
+      {
+        "date": "2025-09-16",
+        "Followers": 829,
+        "Difference in followers from previous day": 55
+      },
+      {
+        "date": "2025-09-17",
+        "Followers": 840,
+        "Difference in followers from previous day": 11
+      },
+      {
+        "date": "2025-09-18",
+        "Followers": 864,
+        "Difference in followers from previous day": 24
+      },
+      {
+        "date": "2025-09-19",
+        "Followers": 973,
+        "Difference in followers from previous day": 109
+      },
+      {
+        "date": "2025-09-20",
+        "Followers": 1155,
+        "Difference in followers from previous day": 182
+      },
+      {
+        "date": "2025-09-21",
+        "Followers": 1214,
+        "Difference in followers from previous day": 59
+      },
+      {
+        "date": "2025-09-22",
+        "Followers": 1255,
+        "Difference in followers from previous day": 41
+      },
+      {
+        "date": "2025-09-23",
+        "Followers": 1273,
+        "Difference in followers from previous day": 18
+      },
+      {
+        "date": "2025-09-24",
+        "Followers": 1276,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-09-25",
+        "Followers": 1279,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-09-26",
+        "Followers": 1286,
+        "Difference in followers from previous day": 7
+      },
+      {
+        "date": "2025-09-27",
+        "Followers": 1337,
+        "Difference in followers from previous day": 51
+      },
+      {
+        "date": "2025-09-28",
+        "Followers": 1400,
+        "Difference in followers from previous day": 63
+      },
+      {
+        "date": "2025-09-29",
+        "Followers": 1429,
+        "Difference in followers from previous day": 29
+      },
+      {
+        "date": "2025-09-30",
+        "Followers": 1459,
+        "Difference in followers from previous day": 30
+      },
+      {
+        "date": "2025-10-01",
+        "Followers": 1484,
+        "Difference in followers from previous day": 25
+      },
+      {
+        "date": "2025-10-02",
+        "Followers": 1907,
+        "Difference in followers from previous day": 423
+      },
+      {
+        "date": "2025-10-03",
+        "Followers": 3019,
+        "Difference in followers from previous day": 1112
+      },
+      {
+        "date": "2025-10-04",
+        "Followers": 3499,
+        "Difference in followers from previous day": 480
+      },
+      {
+        "date": "2025-10-05",
+        "Followers": 3912,
+        "Difference in followers from previous day": 413
+      },
+      {
+        "date": "2025-10-06",
+        "Followers": 4295,
+        "Difference in followers from previous day": 383
+      },
+      {
+        "date": "2025-10-07",
+        "Followers": 4672,
+        "Difference in followers from previous day": 377
+      },
+      {
+        "date": "2025-10-08",
+        "Followers": 4923,
+        "Difference in followers from previous day": 251
+      },
+      {
+        "date": "2025-10-09",
+        "Followers": 5089,
+        "Difference in followers from previous day": 166
+      },
+      {
+        "date": "2025-10-10",
+        "Followers": 5281,
+        "Difference in followers from previous day": 192
+      },
+      {
+        "date": "2025-10-11",
+        "Followers": 5472,
+        "Difference in followers from previous day": 191
+      },
+      {
+        "date": "2025-10-12",
+        "Followers": 5614,
+        "Difference in followers from previous day": 142
+      },
+      {
+        "date": "2025-10-13",
+        "Followers": 5785,
+        "Difference in followers from previous day": 171
+      },
+      {
+        "date": "2025-10-14",
+        "Followers": 5886,
+        "Difference in followers from previous day": 101
+      },
+      {
+        "date": "2025-10-15",
+        "Followers": 5949,
+        "Difference in followers from previous day": 63
+      },
+      {
+        "date": "2025-10-16",
+        "Followers": 6016,
+        "Difference in followers from previous day": 67
+      },
+      {
+        "date": "2025-10-17",
+        "Followers": 6058,
+        "Difference in followers from previous day": 42
+      },
+      {
+        "date": "2025-10-18",
+        "Followers": 6080,
+        "Difference in followers from previous day": 22
+      },
+      {
+        "date": "2025-10-19",
+        "Followers": 6111,
+        "Difference in followers from previous day": 31
+      },
+      {
+        "date": "2025-10-20",
+        "Followers": 6137,
+        "Difference in followers from previous day": 26
+      },
+      {
+        "date": "2025-10-21",
+        "Followers": 6144,
+        "Difference in followers from previous day": 7
+      },
+      {
+        "date": "2025-10-22",
+        "Followers": 6166,
+        "Difference in followers from previous day": 22
+      },
+      {
+        "date": "2025-10-23",
+        "Followers": 6196,
+        "Difference in followers from previous day": 30
+      },
+      {
+        "date": "2025-10-24",
+        "Followers": 6216,
+        "Difference in followers from previous day": 20
+      },
+      {
+        "date": "2025-10-25",
+        "Followers": 6240,
+        "Difference in followers from previous day": 24
+      },
+      {
+        "date": "2025-10-26",
+        "Followers": 6255,
+        "Difference in followers from previous day": 15
+      },
+      {
+        "date": "2025-10-27",
+        "Followers": 6289,
+        "Difference in followers from previous day": 34
+      },
+      {
+        "date": "2025-10-28",
+        "Followers": 6339,
+        "Difference in followers from previous day": 50
+      },
+      {
+        "date": "2025-10-29",
+        "Followers": 6395,
+        "Difference in followers from previous day": 56
+      },
+      {
+        "date": "2025-10-30",
+        "Followers": 6449,
+        "Difference in followers from previous day": 54
+      },
+      {
+        "date": "2025-10-31",
+        "Followers": 6506,
+        "Difference in followers from previous day": 57
+      },
+      {
+        "date": "2025-11-01",
+        "Followers": 6531,
+        "Difference in followers from previous day": 25
+      },
+      {
+        "date": "2025-11-02",
+        "Followers": 6556,
+        "Difference in followers from previous day": 25
+      },
+      {
+        "date": "2025-11-03",
+        "Followers": 6560,
+        "Difference in followers from previous day": 4
+      },
+      {
+        "date": "2025-11-04",
+        "Followers": 6568,
+        "Difference in followers from previous day": 8
+      },
+      {
+        "date": "2025-11-05",
+        "Followers": 6581,
+        "Difference in followers from previous day": 13
+      },
+      {
+        "date": "2025-11-06",
+        "Followers": 6592,
+        "Difference in followers from previous day": 11
+      },
+      {
+        "date": "2025-11-07",
+        "Followers": 6601,
+        "Difference in followers from previous day": 9
+      },
+      {
+        "date": "2025-11-08",
+        "Followers": 6615,
+        "Difference in followers from previous day": 14
+      },
+      {
+        "date": "2025-11-09",
+        "Followers": 6624,
+        "Difference in followers from previous day": 9
+      },
+      {
+        "date": "2025-11-10",
+        "Followers": 6647,
+        "Difference in followers from previous day": 23
+      },
+      {
+        "date": "2025-11-11",
+        "Followers": 6658,
+        "Difference in followers from previous day": 11
+      },
+      {
+        "date": "2025-11-12",
+        "Followers": 6679,
+        "Difference in followers from previous day": 21
+      },
+      {
+        "date": "2025-11-13",
+        "Followers": 6686,
+        "Difference in followers from previous day": 7
+      },
+      {
+        "date": "2025-11-14",
+        "Followers": 6716,
+        "Difference in followers from previous day": 30
+      },
+      {
+        "date": "2025-11-15",
+        "Followers": 6726,
+        "Difference in followers from previous day": 10
+      },
+      {
+        "date": "2025-11-16",
+        "Followers": 6736,
+        "Difference in followers from previous day": 10
+      },
+      {
+        "date": "2025-11-17",
+        "Followers": 6751,
+        "Difference in followers from previous day": 15
+      },
+      {
+        "date": "2025-11-18",
+        "Followers": 6763,
+        "Difference in followers from previous day": 12
+      },
+      {
+        "date": "2025-11-19",
+        "Followers": 6778,
+        "Difference in followers from previous day": 15
+      },
+      {
+        "date": "2025-11-20",
+        "Followers": 6791,
+        "Difference in followers from previous day": 13
+      },
+      {
+        "date": "2025-11-21",
+        "Followers": 6801,
+        "Difference in followers from previous day": 10
+      },
+      {
+        "date": "2025-11-22",
+        "Followers": 6812,
+        "Difference in followers from previous day": 11
+      },
+      {
+        "date": "2025-11-23",
+        "Followers": 6815,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-11-24",
+        "Followers": 6825,
+        "Difference in followers from previous day": 10
+      },
+      {
+        "date": "2025-11-25",
+        "Followers": 6832,
+        "Difference in followers from previous day": 7
+      },
+      {
+        "date": "2025-11-26",
+        "Followers": 6833,
+        "Difference in followers from previous day": 1
+      },
+      {
+        "date": "2025-11-27",
+        "Followers": 6838,
+        "Difference in followers from previous day": 5
+      },
+      {
+        "date": "2025-11-28",
+        "Followers": 6841,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-11-29",
+        "Followers": 6842,
+        "Difference in followers from previous day": 1
+      },
+      {
+        "date": "2025-11-30",
+        "Followers": 6842,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-01",
+        "Followers": 6845,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-12-02",
+        "Followers": 6847,
+        "Difference in followers from previous day": 2
+      },
+      {
+        "date": "2025-12-03",
+        "Followers": 6851,
+        "Difference in followers from previous day": 4
+      },
+      {
+        "date": "2025-12-04",
+        "Followers": 6858,
+        "Difference in followers from previous day": 7
+      },
+      {
+        "date": "2025-12-05",
+        "Followers": 6862,
+        "Difference in followers from previous day": 4
+      },
+      {
+        "date": "2025-12-06",
+        "Followers": 6868,
+        "Difference in followers from previous day": 6
+      },
+      {
+        "date": "2025-12-07",
+        "Followers": 6871,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2025-12-08",
+        "Followers": 6877,
+        "Difference in followers from previous day": 6
+      },
+      {
+        "date": "2025-12-09",
+        "Followers": 6878,
+        "Difference in followers from previous day": 1
+      },
+      {
+        "date": "2025-12-10",
+        "Followers": 6878,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-11",
+        "Followers": 6878,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-12",
+        "Followers": 6873,
+        "Difference in followers from previous day": -5
+      },
+      {
+        "date": "2025-12-13",
+        "Followers": 6873,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-14",
+        "Followers": 6872,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2025-12-15",
+        "Followers": 6870,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2025-12-16",
+        "Followers": 6868,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2025-12-17",
+        "Followers": 6873,
+        "Difference in followers from previous day": 5
+      },
+      {
+        "date": "2025-12-18",
+        "Followers": 6877,
+        "Difference in followers from previous day": 4
+      },
+      {
+        "date": "2025-12-19",
+        "Followers": 6875,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2025-12-20",
+        "Followers": 6872,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2025-12-21",
+        "Followers": 6871,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2025-12-22",
+        "Followers": 6869,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2025-12-23",
+        "Followers": 6871,
+        "Difference in followers from previous day": 2
+      },
+      {
+        "date": "2025-12-24",
+        "Followers": 6872,
+        "Difference in followers from previous day": 1
+      },
+      {
+        "date": "2025-12-25",
+        "Followers": 6872,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-26",
+        "Followers": 6869,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2025-12-27",
+        "Followers": 6867,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2025-12-28",
+        "Followers": 6867,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2025-12-29",
+        "Followers": 6869,
+        "Difference in followers from previous day": 2
+      },
+      {
+        "date": "2025-12-30",
+        "Followers": 6868,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2025-12-31",
+        "Followers": 6867,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-01",
+        "Followers": 6864,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-01-02",
+        "Followers": 6864,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-03",
+        "Followers": 6862,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-04",
+        "Followers": 6854,
+        "Difference in followers from previous day": -8
+      },
+      {
+        "date": "2026-01-05",
+        "Followers": 6853,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-06",
+        "Followers": 6852,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-07",
+        "Followers": 6852,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-08",
+        "Followers": 6848,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-01-09",
+        "Followers": 6851,
+        "Difference in followers from previous day": 3
+      },
+      {
+        "date": "2026-01-10",
+        "Followers": 6853,
+        "Difference in followers from previous day": 2
+      },
+      {
+        "date": "2026-01-11",
+        "Followers": 6853,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-12",
+        "Followers": 6850,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-01-13",
+        "Followers": 6850,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-14",
+        "Followers": 6852,
+        "Difference in followers from previous day": 2
+      },
+      {
+        "date": "2026-01-15",
+        "Followers": 6850,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-16",
+        "Followers": 6848,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-17",
+        "Followers": 6843,
+        "Difference in followers from previous day": -5
+      },
+      {
+        "date": "2026-01-18",
+        "Followers": 6843,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-19",
+        "Followers": 6842,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-20",
+        "Followers": 6840,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-21",
+        "Followers": 6835,
+        "Difference in followers from previous day": -5
+      },
+      {
+        "date": "2026-01-22",
+        "Followers": 6835,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-01-23",
+        "Followers": 6833,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-24",
+        "Followers": 6832,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-25",
+        "Followers": 6828,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-01-26",
+        "Followers": 6827,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-27",
+        "Followers": 6820,
+        "Difference in followers from previous day": -7
+      },
+      {
+        "date": "2026-01-28",
+        "Followers": 6817,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-01-29",
+        "Followers": 6816,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-01-30",
+        "Followers": 6814,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-01-31",
+        "Followers": 6814,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-02-01",
+        "Followers": 6814,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-02-02",
+        "Followers": 6813,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-03",
+        "Followers": 6812,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-04",
+        "Followers": 6809,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-02-05",
+        "Followers": 6805,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-02-06",
+        "Followers": 6805,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-02-07",
+        "Followers": 6803,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-02-08",
+        "Followers": 6802,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-09",
+        "Followers": 6801,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-10",
+        "Followers": 6799,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-02-11",
+        "Followers": 6798,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-12",
+        "Followers": 6797,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-13",
+        "Followers": 6796,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-14",
+        "Followers": 6795,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-15",
+        "Followers": 6792,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-02-16",
+        "Followers": 6791,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-17",
+        "Followers": 6790,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-18",
+        "Followers": 6788,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-02-19",
+        "Followers": 6785,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-02-20",
+        "Followers": 6784,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-21",
+        "Followers": 6783,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-22",
+        "Followers": 6780,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-02-23",
+        "Followers": 6777,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-02-24",
+        "Followers": 6775,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-02-25",
+        "Followers": 6775,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-02-26",
+        "Followers": 6774,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-02-27",
+        "Followers": 6772,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-02-28",
+        "Followers": 6770,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-03-01",
+        "Followers": 6767,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-02",
+        "Followers": 6765,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-03-03",
+        "Followers": 6765,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-04",
+        "Followers": 6761,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-03-05",
+        "Followers": 6761,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-06",
+        "Followers": 6761,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-07",
+        "Followers": 6758,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-08",
+        "Followers": 6758,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-09",
+        "Followers": 6757,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-10",
+        "Followers": 6754,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-11",
+        "Followers": 6751,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-12",
+        "Followers": 6749,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-03-13",
+        "Followers": 6747,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-03-14",
+        "Followers": 6747,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-15",
+        "Followers": 6746,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-16",
+        "Followers": 6745,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-17",
+        "Followers": 6744,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-18",
+        "Followers": 6741,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-19",
+        "Followers": 6741,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-03-20",
+        "Followers": 6738,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-21",
+        "Followers": 6737,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-22",
+        "Followers": 6736,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-23",
+        "Followers": 6733,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-24",
+        "Followers": 6732,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-25",
+        "Followers": 6727,
+        "Difference in followers from previous day": -5
+      },
+      {
+        "date": "2026-03-26",
+        "Followers": 6726,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-27",
+        "Followers": 6725,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-28",
+        "Followers": 6724,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-29",
+        "Followers": 6723,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-03-30",
+        "Followers": 6720,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-03-31",
+        "Followers": 6718,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-01",
+        "Followers": 6717,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-02",
+        "Followers": 6714,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-03",
+        "Followers": 6711,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-04",
+        "Followers": 6708,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-05",
+        "Followers": 6707,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-06",
+        "Followers": 6706,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-07",
+        "Followers": 6706,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-04-08",
+        "Followers": 6701,
+        "Difference in followers from previous day": -5
+      },
+      {
+        "date": "2026-04-09",
+        "Followers": 6701,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-04-10",
+        "Followers": 6698,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-11",
+        "Followers": 6695,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-12",
+        "Followers": 6691,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-04-13",
+        "Followers": 6690,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-14",
+        "Followers": 6687,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-15",
+        "Followers": 6685,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-16",
+        "Followers": 6683,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-17",
+        "Followers": 6681,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-18",
+        "Followers": 6681,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-04-19",
+        "Followers": 6681,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-04-20",
+        "Followers": 6678,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-04-21",
+        "Followers": 6677,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-22",
+        "Followers": 6673,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-04-23",
+        "Followers": 6673,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-04-24",
+        "Followers": 6672,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-25",
+        "Followers": 6670,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-26",
+        "Followers": 6668,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-27",
+        "Followers": 6666,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-04-28",
+        "Followers": 6665,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-29",
+        "Followers": 6664,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-04-30",
+        "Followers": 6662,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-01",
+        "Followers": 6662,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-02",
+        "Followers": 6662,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-03",
+        "Followers": 6660,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-04",
+        "Followers": 6659,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-05",
+        "Followers": 6657,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-06",
+        "Followers": 6656,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-07",
+        "Followers": 6655,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-08",
+        "Followers": 6654,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-09",
+        "Followers": 6653,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-10",
+        "Followers": 6651,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-11",
+        "Followers": 6650,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-12",
+        "Followers": 6649,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-13",
+        "Followers": 6649,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-14",
+        "Followers": 6649,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-15",
+        "Followers": 6649,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-16",
+        "Followers": 6649,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-05-17",
+        "Followers": 6648,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-18",
+        "Followers": 6646,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-19",
+        "Followers": 6643,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-05-20",
+        "Followers": 6639,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-05-21",
+        "Followers": 6637,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-22",
+        "Followers": 6635,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-23",
+        "Followers": 6634,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-24",
+        "Followers": 6632,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-25",
+        "Followers": 6630,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-26",
+        "Followers": 6627,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-05-27",
+        "Followers": 6626,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-28",
+        "Followers": 6624,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-29",
+        "Followers": 6622,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-05-30",
+        "Followers": 6621,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-05-31",
+        "Followers": 6618,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-06-01",
+        "Followers": 6618,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-02",
+        "Followers": 6617,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-03",
+        "Followers": 6617,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-04",
+        "Followers": 6617,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-05",
+        "Followers": 6617,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-06",
+        "Followers": 6617,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-07",
+        "Followers": 6614,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-06-08",
+        "Followers": 6613,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-09",
+        "Followers": 6612,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-10",
+        "Followers": 6608,
+        "Difference in followers from previous day": -4
+      },
+      {
+        "date": "2026-06-11",
+        "Followers": 6608,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-12",
+        "Followers": 6607,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-13",
+        "Followers": 6606,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-14",
+        "Followers": 6606,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-15",
+        "Followers": 6606,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-16",
+        "Followers": 6606,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-17",
+        "Followers": 6603,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-06-18",
+        "Followers": 6601,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-06-19",
+        "Followers": 6600,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-20",
+        "Followers": 6600,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-21",
+        "Followers": 6599,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-22",
+        "Followers": 6597,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-06-23",
+        "Followers": 6596,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-24",
+        "Followers": 6596,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-25",
+        "Followers": 6595,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-26",
+        "Followers": 6593,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-06-27",
+        "Followers": 6593,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-06-28",
+        "Followers": 6592,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-06-29",
+        "Followers": 6590,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-06-30",
+        "Followers": 6589,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-01",
+        "Followers": 6586,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-07-02",
+        "Followers": 6584,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-03",
+        "Followers": 6584,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-04",
+        "Followers": 6582,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-05",
+        "Followers": 6581,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-06",
+        "Followers": 6580,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-07",
+        "Followers": 6579,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-08",
+        "Followers": 6579,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-09",
+        "Followers": 6578,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-10",
+        "Followers": 6578,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-11",
+        "Followers": 6576,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-12",
+        "Followers": 6575,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-13",
+        "Followers": 6574,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-14",
+        "Followers": 6572,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-15",
+        "Followers": 6571,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-16",
+        "Followers": 6571,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-17",
+        "Followers": 6572,
+        "Difference in followers from previous day": 1
+      },
+      {
+        "date": "2026-07-18",
+        "Followers": 6569,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-07-19",
+        "Followers": 6568,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-20",
+        "Followers": 6566,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-21",
+        "Followers": 6565,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-22",
+        "Followers": 6563,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-23",
+        "Followers": 6561,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-24",
+        "Followers": 6561,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-25",
+        "Followers": 6561,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-26",
+        "Followers": 6559,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-07-27",
+        "Followers": 6558,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-28",
+        "Followers": 6557,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-29",
+        "Followers": 6557,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-07-30",
+        "Followers": 6556,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-07-31",
+        "Followers": 6553,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-08-01",
+        "Followers": 6553,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-02",
+        "Followers": 6552,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-03",
+        "Followers": 6551,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-04",
+        "Followers": 6551,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-05",
+        "Followers": 6550,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-06",
+        "Followers": 6549,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-07",
+        "Followers": 6547,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-08-08",
+        "Followers": 6546,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-09",
+        "Followers": 6545,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-10",
+        "Followers": 6545,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-11",
+        "Followers": 6545,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-12",
+        "Followers": 6543,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-08-13",
+        "Followers": 6541,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-08-14",
+        "Followers": 6540,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-15",
+        "Followers": 6539,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-16",
+        "Followers": 6538,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-17",
+        "Followers": 6537,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-18",
+        "Followers": 6537,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-19",
+        "Followers": 6536,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-20",
+        "Followers": 6535,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-21",
+        "Followers": 6534,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-22",
+        "Followers": 6533,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-23",
+        "Followers": 6533,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-24",
+        "Followers": 6533,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-25",
+        "Followers": 6532,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-26",
+        "Followers": 6531,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-27",
+        "Followers": 6528,
+        "Difference in followers from previous day": -3
+      },
+      {
+        "date": "2026-08-28",
+        "Followers": 6528,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-08-29",
+        "Followers": 6527,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-30",
+        "Followers": 6526,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-08-31",
+        "Followers": 6525,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-09-01",
+        "Followers": 6523,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-09-02",
+        "Followers": 6523,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-03",
+        "Followers": 6521,
+        "Difference in followers from previous day": -2
+      },
+      {
+        "date": "2026-09-04",
+        "Followers": 6521,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-05",
+        "Followers": 6520,
+        "Difference in followers from previous day": -1
+      },
+      {
+        "date": "2026-09-06",
+        "Followers": 6520,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-07",
+        "Followers": 6520,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-08",
+        "Followers": 6520,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-09",
+        "Followers": 6520,
+        "Difference in followers from previous day": 0
+      },
+      {
+        "date": "2026-09-10",
+        "Followers": 6520,
+        "Difference in followers from previous day": 0
+      }
+    ],
+    "gender": {
+      "Male": 81.0,
+      "Female": 18.0,
+      "Other": 1.0
+    },
+    "territories": {
+      "FR": 14.2,
+      "ID": 6.7,
+      "TH": 5.5,
+      "BR": 5.1,
+      "MX": 4.8,
+      "PH": 3.7,
+      "DZ": 2.9,
+      "IT": 2.2,
+      "MY": 2.1,
+      "US": 1.8,
+      "Others": 51.0
+    },
+    "hourly_activity": [
+      {
+        "hour": 0,
+        "mean": 1163.4,
+        "days": 7
+      },
+      {
+        "hour": 1,
+        "mean": 1146.0,
+        "days": 7
+      },
+      {
+        "hour": 2,
+        "mean": 1137.3,
+        "days": 7
+      },
+      {
+        "hour": 3,
+        "mean": 1113.0,
+        "days": 7
+      },
+      {
+        "hour": 4,
+        "mean": 1059.4,
+        "days": 7
+      },
+      {
+        "hour": 5,
+        "mean": 1070.3,
+        "days": 7
+      },
+      {
+        "hour": 6,
+        "mean": 1112.9,
+        "days": 7
+      },
+      {
+        "hour": 7,
+        "mean": 1162.0,
+        "days": 7
+      },
+      {
+        "hour": 8,
+        "mean": 1114.0,
+        "days": 7
+      },
+      {
+        "hour": 9,
+        "mean": 1094.1,
+        "days": 7
+      },
+      {
+        "hour": 10,
+        "mean": 1129.0,
+        "days": 7
+      },
+      {
+        "hour": 11,
+        "mean": 1237.3,
+        "days": 7
+      },
+      {
+        "hour": 12,
+        "mean": 1401.4,
+        "days": 7
+      },
+      {
+        "hour": 13,
+        "mean": 1502.3,
+        "days": 7
+      },
+      {
+        "hour": 14,
+        "mean": 1548.1,
+        "days": 7
+      },
+      {
+        "hour": 15,
+        "mean": 1578.3,
+        "days": 7
+      },
+      {
+        "hour": 16,
+        "mean": 1583.0,
+        "days": 7
+      },
+      {
+        "hour": 17,
+        "mean": 1576.4,
+        "days": 7
+      },
+      {
+        "hour": 18,
+        "mean": 1477.4,
+        "days": 7
+      },
+      {
+        "hour": 19,
+        "mean": 1408.3,
+        "days": 7
+      },
+      {
+        "hour": 20,
+        "mean": 1318.4,
+        "days": 7
+      },
+      {
+        "hour": 21,
+        "mean": 1272.3,
+        "days": 7
+      },
+      {
+        "hour": 22,
+        "mean": 1235.1,
+        "days": 7
+      },
+      {
+        "hour": 23,
+        "mean": 1192.0,
+        "days": 7
+      }
+    ],
+    "activity_timezone": "Non indiqué par le CSV ; ne pas convertir automatiquement en heure de Paris."
+  },
+  "last30": {
+    "Video Views": 908,
+    "Profile Views": 17,
+    "Likes": 17,
+    "Comments": 0,
+    "Shares": 1
+  },
+  "viewers": {
+    "daily": [
+      {
+        "date": "2025-09-11",
+        "Total Viewers": 2191,
+        "New Viewers": 1317,
+        "Returning Viewers": 874
+      },
+      {
+        "date": "2025-09-12",
+        "Total Viewers": 63554,
+        "New Viewers": 52806,
+        "Returning Viewers": 10748
+      },
+      {
+        "date": "2025-09-13",
+        "Total Viewers": 35484,
+        "New Viewers": 31304,
+        "Returning Viewers": 4180
+      },
+      {
+        "date": "2025-09-14",
+        "Total Viewers": 7327,
+        "New Viewers": 6211,
+        "Returning Viewers": 1116
+      },
+      {
+        "date": "2025-09-15",
+        "Total Viewers": 7298,
+        "New Viewers": 6043,
+        "Returning Viewers": 1255
+      },
+      {
+        "date": "2025-09-16",
+        "Total Viewers": 19340,
+        "New Viewers": 12672,
+        "Returning Viewers": 6668
+      },
+      {
+        "date": "2025-09-17",
+        "Total Viewers": 32951,
+        "New Viewers": 20045,
+        "Returning Viewers": 12906
+      },
+      {
+        "date": "2025-09-18",
+        "Total Viewers": 3613,
+        "New Viewers": 2090,
+        "Returning Viewers": 1523
+      },
+      {
+        "date": "2025-09-19",
+        "Total Viewers": 13545,
+        "New Viewers": 5130,
+        "Returning Viewers": 8415
+      },
+      {
+        "date": "2025-09-20",
+        "Total Viewers": 42913,
+        "New Viewers": 22784,
+        "Returning Viewers": 20129
+      },
+      {
+        "date": "2025-09-21",
+        "Total Viewers": 43420,
+        "New Viewers": 32599,
+        "Returning Viewers": 10821
+      },
+      {
+        "date": "2025-09-22",
+        "Total Viewers": 13093,
+        "New Viewers": 8992,
+        "Returning Viewers": 4101
+      },
+      {
+        "date": "2025-09-23",
+        "Total Viewers": 10941,
+        "New Viewers": 8331,
+        "Returning Viewers": 2610
+      },
+      {
+        "date": "2025-09-24",
+        "Total Viewers": 3963,
+        "New Viewers": 2807,
+        "Returning Viewers": 1156
+      },
+      {
+        "date": "2025-09-25",
+        "Total Viewers": 1691,
+        "New Viewers": 926,
+        "Returning Viewers": 765
+      },
+      {
+        "date": "2025-09-26",
+        "Total Viewers": 1283,
+        "New Viewers": 817,
+        "Returning Viewers": 466
+      },
+      {
+        "date": "2025-09-27",
+        "Total Viewers": 2220,
+        "New Viewers": 1783,
+        "Returning Viewers": 437
+      },
+      {
+        "date": "2025-09-28",
+        "Total Viewers": 13985,
+        "New Viewers": 12749,
+        "Returning Viewers": 1236
+      },
+      {
+        "date": "2025-09-29",
+        "Total Viewers": 16738,
+        "New Viewers": 15154,
+        "Returning Viewers": 1584
+      },
+      {
+        "date": "2025-09-30",
+        "Total Viewers": 8454,
+        "New Viewers": 7098,
+        "Returning Viewers": 1356
+      },
+      {
+        "date": "2025-10-01",
+        "Total Viewers": 9298,
+        "New Viewers": 8056,
+        "Returning Viewers": 1242
+      },
+      {
+        "date": "2025-10-02",
+        "Total Viewers": 8678,
+        "New Viewers": 7084,
+        "Returning Viewers": 1594
+      },
+      {
+        "date": "2025-10-03",
+        "Total Viewers": 189079,
+        "New Viewers": 164221,
+        "Returning Viewers": 24858
+      },
+      {
+        "date": "2025-10-04",
+        "Total Viewers": 422894,
+        "New Viewers": 400565,
+        "Returning Viewers": 22329
+      },
+      {
+        "date": "2025-10-05",
+        "Total Viewers": 152700,
+        "New Viewers": 135904,
+        "Returning Viewers": 16796
+      },
+      {
+        "date": "2025-10-06",
+        "Total Viewers": 170767,
+        "New Viewers": 152933,
+        "Returning Viewers": 17834
+      },
+      {
+        "date": "2025-10-07",
+        "Total Viewers": 161804,
+        "New Viewers": 143810,
+        "Returning Viewers": 17994
+      },
+      {
+        "date": "2025-10-08",
+        "Total Viewers": 143253,
+        "New Viewers": 125633,
+        "Returning Viewers": 17620
+      },
+      {
+        "date": "2025-10-09",
+        "Total Viewers": 116491,
+        "New Viewers": 104091,
+        "Returning Viewers": 12400
+      },
+      {
+        "date": "2025-10-10",
+        "Total Viewers": 86858,
+        "New Viewers": 76729,
+        "Returning Viewers": 10129
+      },
+      {
+        "date": "2025-10-11",
+        "Total Viewers": 95462,
+        "New Viewers": 86504,
+        "Returning Viewers": 8958
+      },
+      {
+        "date": "2025-10-12",
+        "Total Viewers": 85546,
+        "New Viewers": 67502,
+        "Returning Viewers": 18044
+      },
+      {
+        "date": "2025-10-13",
+        "Total Viewers": 73435,
+        "New Viewers": 63179,
+        "Returning Viewers": 10256
+      },
+      {
+        "date": "2025-10-14",
+        "Total Viewers": 72676,
+        "New Viewers": 63247,
+        "Returning Viewers": 9429
+      },
+      {
+        "date": "2025-10-15",
+        "Total Viewers": 51028,
+        "New Viewers": 41396,
+        "Returning Viewers": 9632
+      },
+      {
+        "date": "2025-10-16",
+        "Total Viewers": 40807,
+        "New Viewers": 33212,
+        "Returning Viewers": 7595
+      },
+      {
+        "date": "2025-10-17",
+        "Total Viewers": 39487,
+        "New Viewers": 30273,
+        "Returning Viewers": 9214
+      },
+      {
+        "date": "2025-10-18",
+        "Total Viewers": 15368,
+        "New Viewers": 11978,
+        "Returning Viewers": 3390
+      },
+      {
+        "date": "2025-10-19",
+        "Total Viewers": 12982,
+        "New Viewers": 8825,
+        "Returning Viewers": 4157
+      },
+      {
+        "date": "2025-10-20",
+        "Total Viewers": 11758,
+        "New Viewers": 7938,
+        "Returning Viewers": 3820
+      },
+      {
+        "date": "2025-10-21",
+        "Total Viewers": 11221,
+        "New Viewers": 8069,
+        "Returning Viewers": 3152
+      },
+      {
+        "date": "2025-10-22",
+        "Total Viewers": 7739,
+        "New Viewers": 5418,
+        "Returning Viewers": 2321
+      },
+      {
+        "date": "2025-10-23",
+        "Total Viewers": 9710,
+        "New Viewers": 7236,
+        "Returning Viewers": 2474
+      },
+      {
+        "date": "2025-10-24",
+        "Total Viewers": 12635,
+        "New Viewers": 9408,
+        "Returning Viewers": 3227
+      },
+      {
+        "date": "2025-10-25",
+        "Total Viewers": 11391,
+        "New Viewers": 8572,
+        "Returning Viewers": 2819
+      },
+      {
+        "date": "2025-10-26",
+        "Total Viewers": 9381,
+        "New Viewers": 6195,
+        "Returning Viewers": 3186
+      },
+      {
+        "date": "2025-10-27",
+        "Total Viewers": 10867,
+        "New Viewers": 6988,
+        "Returning Viewers": 3879
+      },
+      {
+        "date": "2025-10-28",
+        "Total Viewers": 18438,
+        "New Viewers": 9584,
+        "Returning Viewers": 8854
+      },
+      {
+        "date": "2025-10-29",
+        "Total Viewers": 18219,
+        "New Viewers": 10408,
+        "Returning Viewers": 7811
+      },
+      {
+        "date": "2025-10-30",
+        "Total Viewers": 17199,
+        "New Viewers": 10259,
+        "Returning Viewers": 6940
+      },
+      {
+        "date": "2025-10-31",
+        "Total Viewers": 15280,
+        "New Viewers": 9359,
+        "Returning Viewers": 5921
+      },
+      {
+        "date": "2025-11-01",
+        "Total Viewers": 19788,
+        "New Viewers": 10223,
+        "Returning Viewers": 9565
+      },
+      {
+        "date": "2025-11-02",
+        "Total Viewers": 14987,
+        "New Viewers": 8079,
+        "Returning Viewers": 6908
+      },
+      {
+        "date": "2025-11-03",
+        "Total Viewers": 12485,
+        "New Viewers": 6007,
+        "Returning Viewers": 6478
+      },
+      {
+        "date": "2025-11-04",
+        "Total Viewers": 7546,
+        "New Viewers": 3866,
+        "Returning Viewers": 3680
+      },
+      {
+        "date": "2025-11-05",
+        "Total Viewers": 5719,
+        "New Viewers": 3462,
+        "Returning Viewers": 2257
+      },
+      {
+        "date": "2025-11-06",
+        "Total Viewers": 4690,
+        "New Viewers": 2792,
+        "Returning Viewers": 1898
+      },
+      {
+        "date": "2025-11-07",
+        "Total Viewers": 5553,
+        "New Viewers": 3216,
+        "Returning Viewers": 2337
+      },
+      {
+        "date": "2025-11-08",
+        "Total Viewers": 5771,
+        "New Viewers": 3311,
+        "Returning Viewers": 2460
+      },
+      {
+        "date": "2025-11-09",
+        "Total Viewers": 6582,
+        "New Viewers": 4096,
+        "Returning Viewers": 2486
+      },
+      {
+        "date": "2025-11-10",
+        "Total Viewers": 6959,
+        "New Viewers": 4172,
+        "Returning Viewers": 2787
+      },
+      {
+        "date": "2025-11-11",
+        "Total Viewers": 6821,
+        "New Viewers": 4032,
+        "Returning Viewers": 2789
+      },
+      {
+        "date": "2025-11-12",
+        "Total Viewers": 5397,
+        "New Viewers": 3166,
+        "Returning Viewers": 2231
+      },
+      {
+        "date": "2025-11-13",
+        "Total Viewers": 6593,
+        "New Viewers": 3945,
+        "Returning Viewers": 2648
+      },
+      {
+        "date": "2025-11-14",
+        "Total Viewers": 5182,
+        "New Viewers": 3079,
+        "Returning Viewers": 2103
+      },
+      {
+        "date": "2025-11-15",
+        "Total Viewers": 8398,
+        "New Viewers": 5048,
+        "Returning Viewers": 3350
+      },
+      {
+        "date": "2025-11-16",
+        "Total Viewers": 4752,
+        "New Viewers": 2908,
+        "Returning Viewers": 1844
+      },
+      {
+        "date": "2025-11-17",
+        "Total Viewers": 5348,
+        "New Viewers": 3223,
+        "Returning Viewers": 2125
+      },
+      {
+        "date": "2025-11-18",
+        "Total Viewers": 4720,
+        "New Viewers": 2896,
+        "Returning Viewers": 1824
+      },
+      {
+        "date": "2025-11-19",
+        "Total Viewers": 3728,
+        "New Viewers": 2390,
+        "Returning Viewers": 1338
+      },
+      {
+        "date": "2025-11-20",
+        "Total Viewers": 3994,
+        "New Viewers": 2754,
+        "Returning Viewers": 1240
+      },
+      {
+        "date": "2025-11-21",
+        "Total Viewers": 3957,
+        "New Viewers": 2704,
+        "Returning Viewers": 1253
+      },
+      {
+        "date": "2025-11-22",
+        "Total Viewers": 4447,
+        "New Viewers": 3037,
+        "Returning Viewers": 1410
+      },
+      {
+        "date": "2025-11-23",
+        "Total Viewers": 4638,
+        "New Viewers": 3175,
+        "Returning Viewers": 1463
+      },
+      {
+        "date": "2025-11-24",
+        "Total Viewers": 3959,
+        "New Viewers": 2763,
+        "Returning Viewers": 1196
+      },
+      {
+        "date": "2025-11-25",
+        "Total Viewers": 3920,
+        "New Viewers": 2644,
+        "Returning Viewers": 1276
+      },
+      {
+        "date": "2025-11-26",
+        "Total Viewers": 4037,
+        "New Viewers": 2781,
+        "Returning Viewers": 1256
+      },
+      {
+        "date": "2025-11-27",
+        "Total Viewers": 2805,
+        "New Viewers": 2063,
+        "Returning Viewers": 742
+      },
+      {
+        "date": "2025-11-28",
+        "Total Viewers": 3430,
+        "New Viewers": 2372,
+        "Returning Viewers": 1058
+      },
+      {
+        "date": "2025-11-29",
+        "Total Viewers": 3806,
+        "New Viewers": 2659,
+        "Returning Viewers": 1147
+      },
+      {
+        "date": "2025-11-30",
+        "Total Viewers": 3407,
+        "New Viewers": 2356,
+        "Returning Viewers": 1051
+      },
+      {
+        "date": "2025-12-01",
+        "Total Viewers": 3522,
+        "New Viewers": 2477,
+        "Returning Viewers": 1045
+      },
+      {
+        "date": "2025-12-02",
+        "Total Viewers": 2894,
+        "New Viewers": 1914,
+        "Returning Viewers": 980
+      },
+      {
+        "date": "2025-12-03",
+        "Total Viewers": 2048,
+        "New Viewers": 1399,
+        "Returning Viewers": 649
+      },
+      {
+        "date": "2025-12-04",
+        "Total Viewers": 2556,
+        "New Viewers": 1755,
+        "Returning Viewers": 801
+      },
+      {
+        "date": "2025-12-05",
+        "Total Viewers": 2947,
+        "New Viewers": 1886,
+        "Returning Viewers": 1061
+      },
+      {
+        "date": "2025-12-06",
+        "Total Viewers": 3889,
+        "New Viewers": 2449,
+        "Returning Viewers": 1440
+      },
+      {
+        "date": "2025-12-07",
+        "Total Viewers": 2442,
+        "New Viewers": 1550,
+        "Returning Viewers": 892
+      },
+      {
+        "date": "2025-12-08",
+        "Total Viewers": 1785,
+        "New Viewers": 1244,
+        "Returning Viewers": 541
+      },
+      {
+        "date": "2025-12-09",
+        "Total Viewers": 1777,
+        "New Viewers": 1238,
+        "Returning Viewers": 539
+      },
+      {
+        "date": "2025-12-10",
+        "Total Viewers": 1260,
+        "New Viewers": 910,
+        "Returning Viewers": 350
+      },
+      {
+        "date": "2025-12-11",
+        "Total Viewers": 1315,
+        "New Viewers": 977,
+        "Returning Viewers": 338
+      },
+      {
+        "date": "2025-12-12",
+        "Total Viewers": 1121,
+        "New Viewers": 838,
+        "Returning Viewers": 283
+      },
+      {
+        "date": "2025-12-13",
+        "Total Viewers": 1322,
+        "New Viewers": 1073,
+        "Returning Viewers": 249
+      },
+      {
+        "date": "2025-12-14",
+        "Total Viewers": 1005,
+        "New Viewers": 742,
+        "Returning Viewers": 263
+      },
+      {
+        "date": "2025-12-15",
+        "Total Viewers": 1078,
+        "New Viewers": 792,
+        "Returning Viewers": 286
+      },
+      {
+        "date": "2025-12-16",
+        "Total Viewers": 876,
+        "New Viewers": 628,
+        "Returning Viewers": 248
+      },
+      {
+        "date": "2025-12-17",
+        "Total Viewers": 921,
+        "New Viewers": 672,
+        "Returning Viewers": 249
+      },
+      {
+        "date": "2025-12-18",
+        "Total Viewers": 958,
+        "New Viewers": 727,
+        "Returning Viewers": 231
+      },
+      {
+        "date": "2025-12-19",
+        "Total Viewers": 964,
+        "New Viewers": 714,
+        "Returning Viewers": 250
+      },
+      {
+        "date": "2025-12-20",
+        "Total Viewers": 1067,
+        "New Viewers": 826,
+        "Returning Viewers": 241
+      },
+      {
+        "date": "2025-12-21",
+        "Total Viewers": 1042,
+        "New Viewers": 826,
+        "Returning Viewers": 216
+      },
+      {
+        "date": "2025-12-22",
+        "Total Viewers": 766,
+        "New Viewers": 578,
+        "Returning Viewers": 188
+      },
+      {
+        "date": "2025-12-23",
+        "Total Viewers": 694,
+        "New Viewers": 524,
+        "Returning Viewers": 170
+      },
+      {
+        "date": "2025-12-24",
+        "Total Viewers": 869,
+        "New Viewers": 673,
+        "Returning Viewers": 196
+      },
+      {
+        "date": "2025-12-25",
+        "Total Viewers": 852,
+        "New Viewers": 633,
+        "Returning Viewers": 219
+      },
+      {
+        "date": "2025-12-26",
+        "Total Viewers": 623,
+        "New Viewers": 472,
+        "Returning Viewers": 151
+      },
+      {
+        "date": "2025-12-27",
+        "Total Viewers": 772,
+        "New Viewers": 579,
+        "Returning Viewers": 193
+      },
+      {
+        "date": "2025-12-28",
+        "Total Viewers": 785,
+        "New Viewers": 587,
+        "Returning Viewers": 198
+      },
+      {
+        "date": "2025-12-29",
+        "Total Viewers": 895,
+        "New Viewers": 707,
+        "Returning Viewers": 188
+      },
+      {
+        "date": "2025-12-30",
+        "Total Viewers": 1117,
+        "New Viewers": 907,
+        "Returning Viewers": 210
+      },
+      {
+        "date": "2025-12-31",
+        "Total Viewers": 1114,
+        "New Viewers": 886,
+        "Returning Viewers": 228
+      },
+      {
+        "date": "2026-01-01",
+        "Total Viewers": 1080,
+        "New Viewers": 872,
+        "Returning Viewers": 208
+      },
+      {
+        "date": "2026-01-02",
+        "Total Viewers": 823,
+        "New Viewers": 665,
+        "Returning Viewers": 158
+      },
+      {
+        "date": "2026-01-03",
+        "Total Viewers": 714,
+        "New Viewers": 532,
+        "Returning Viewers": 182
+      },
+      {
+        "date": "2026-01-04",
+        "Total Viewers": 899,
+        "New Viewers": 705,
+        "Returning Viewers": 194
+      },
+      {
+        "date": "2026-01-05",
+        "Total Viewers": 1067,
+        "New Viewers": 903,
+        "Returning Viewers": 164
+      },
+      {
+        "date": "2026-01-06",
+        "Total Viewers": 1080,
+        "New Viewers": 900,
+        "Returning Viewers": 180
+      },
+      {
+        "date": "2026-01-07",
+        "Total Viewers": 821,
+        "New Viewers": 694,
+        "Returning Viewers": 127
+      },
+      {
+        "date": "2026-01-08",
+        "Total Viewers": 891,
+        "New Viewers": 728,
+        "Returning Viewers": 163
+      },
+      {
+        "date": "2026-01-09",
+        "Total Viewers": 890,
+        "New Viewers": 754,
+        "Returning Viewers": 136
+      },
+      {
+        "date": "2026-01-10",
+        "Total Viewers": 833,
+        "New Viewers": 729,
+        "Returning Viewers": 104
+      },
+      {
+        "date": "2026-01-11",
+        "Total Viewers": 770,
+        "New Viewers": 674,
+        "Returning Viewers": 96
+      },
+      {
+        "date": "2026-01-12",
+        "Total Viewers": 721,
+        "New Viewers": 624,
+        "Returning Viewers": 97
+      },
+      {
+        "date": "2026-01-13",
+        "Total Viewers": 347,
+        "New Viewers": 256,
+        "Returning Viewers": 91
+      },
+      {
+        "date": "2026-01-14",
+        "Total Viewers": 234,
+        "New Viewers": 169,
+        "Returning Viewers": 65
+      },
+      {
+        "date": "2026-01-15",
+        "Total Viewers": 223,
+        "New Viewers": 161,
+        "Returning Viewers": 62
+      },
+      {
+        "date": "2026-01-16",
+        "Total Viewers": 211,
+        "New Viewers": 148,
+        "Returning Viewers": 63
+      },
+      {
+        "date": "2026-01-17",
+        "Total Viewers": 165,
+        "New Viewers": 111,
+        "Returning Viewers": 54
+      },
+      {
+        "date": "2026-01-18",
+        "Total Viewers": 190,
+        "New Viewers": 131,
+        "Returning Viewers": 59
+      },
+      {
+        "date": "2026-01-19",
+        "Total Viewers": 159,
+        "New Viewers": 108,
+        "Returning Viewers": 51
+      },
+      {
+        "date": "2026-01-20",
+        "Total Viewers": 208,
+        "New Viewers": 150,
+        "Returning Viewers": 58
+      },
+      {
+        "date": "2026-01-21",
+        "Total Viewers": 174,
+        "New Viewers": 122,
+        "Returning Viewers": 52
+      },
+      {
+        "date": "2026-01-22",
+        "Total Viewers": 192,
+        "New Viewers": 137,
+        "Returning Viewers": 55
+      },
+      {
+        "date": "2026-01-23",
+        "Total Viewers": 162,
+        "New Viewers": 117,
+        "Returning Viewers": 45
+      },
+      {
+        "date": "2026-01-24",
+        "Total Viewers": 152,
+        "New Viewers": 98,
+        "Returning Viewers": 54
+      },
+      {
+        "date": "2026-01-25",
+        "Total Viewers": 141,
+        "New Viewers": 92,
+        "Returning Viewers": 49
+      },
+      {
+        "date": "2026-01-26",
+        "Total Viewers": 60,
+        "New Viewers": 26,
+        "Returning Viewers": 34
+      },
+      {
+        "date": "2026-01-27",
+        "Total Viewers": 77,
+        "New Viewers": 41,
+        "Returning Viewers": 36
+      },
+      {
+        "date": "2026-01-28",
+        "Total Viewers": 97,
+        "New Viewers": 72,
+        "Returning Viewers": 25
+      },
+      {
+        "date": "2026-01-29",
+        "Total Viewers": 61,
+        "New Viewers": 38,
+        "Returning Viewers": 23
+      },
+      {
+        "date": "2026-01-30",
+        "Total Viewers": 163,
+        "New Viewers": 138,
+        "Returning Viewers": 25
+      },
+      {
+        "date": "2026-01-31",
+        "Total Viewers": 133,
+        "New Viewers": 15,
+        "Returning Viewers": 118
+      },
+      {
+        "date": "2026-02-01",
+        "Total Viewers": 49,
+        "New Viewers": 27,
+        "Returning Viewers": 22
+      },
+      {
+        "date": "2026-02-02",
+        "Total Viewers": 54,
+        "New Viewers": 33,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-02-03",
+        "Total Viewers": 60,
+        "New Viewers": 33,
+        "Returning Viewers": 27
+      },
+      {
+        "date": "2026-02-04",
+        "Total Viewers": 54,
+        "New Viewers": 28,
+        "Returning Viewers": 26
+      },
+      {
+        "date": "2026-02-05",
+        "Total Viewers": 44,
+        "New Viewers": 21,
+        "Returning Viewers": 23
+      },
+      {
+        "date": "2026-02-06",
+        "Total Viewers": 47,
+        "New Viewers": 35,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-02-07",
+        "Total Viewers": 47,
+        "New Viewers": 20,
+        "Returning Viewers": 27
+      },
+      {
+        "date": "2026-02-08",
+        "Total Viewers": 43,
+        "New Viewers": 19,
+        "Returning Viewers": 24
+      },
+      {
+        "date": "2026-02-09",
+        "Total Viewers": 51,
+        "New Viewers": 25,
+        "Returning Viewers": 26
+      },
+      {
+        "date": "2026-02-10",
+        "Total Viewers": 51,
+        "New Viewers": 30,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-02-11",
+        "Total Viewers": 42,
+        "New Viewers": 23,
+        "Returning Viewers": 19
+      },
+      {
+        "date": "2026-02-12",
+        "Total Viewers": 52,
+        "New Viewers": 34,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-02-13",
+        "Total Viewers": 73,
+        "New Viewers": 43,
+        "Returning Viewers": 30
+      },
+      {
+        "date": "2026-02-14",
+        "Total Viewers": 47,
+        "New Viewers": 26,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-02-15",
+        "Total Viewers": 52,
+        "New Viewers": 30,
+        "Returning Viewers": 22
+      },
+      {
+        "date": "2026-02-16",
+        "Total Viewers": 35,
+        "New Viewers": 24,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-02-17",
+        "Total Viewers": 47,
+        "New Viewers": 33,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-02-18",
+        "Total Viewers": 83,
+        "New Viewers": 48,
+        "Returning Viewers": 35
+      },
+      {
+        "date": "2026-02-19",
+        "Total Viewers": 57,
+        "New Viewers": 32,
+        "Returning Viewers": 25
+      },
+      {
+        "date": "2026-02-20",
+        "Total Viewers": 19,
+        "New Viewers": 13,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-02-21",
+        "Total Viewers": 30,
+        "New Viewers": 14,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-02-22",
+        "Total Viewers": 26,
+        "New Viewers": 10,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-02-23",
+        "Total Viewers": 50,
+        "New Viewers": 20,
+        "Returning Viewers": 30
+      },
+      {
+        "date": "2026-02-24",
+        "Total Viewers": 41,
+        "New Viewers": 20,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-02-25",
+        "Total Viewers": 34,
+        "New Viewers": 15,
+        "Returning Viewers": 19
+      },
+      {
+        "date": "2026-02-26",
+        "Total Viewers": 37,
+        "New Viewers": 13,
+        "Returning Viewers": 24
+      },
+      {
+        "date": "2026-02-27",
+        "Total Viewers": 37,
+        "New Viewers": 19,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-02-28",
+        "Total Viewers": 46,
+        "New Viewers": 28,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-03-01",
+        "Total Viewers": 37,
+        "New Viewers": 16,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-03-02",
+        "Total Viewers": 36,
+        "New Viewers": 21,
+        "Returning Viewers": 15
+      },
+      {
+        "date": "2026-03-03",
+        "Total Viewers": 37,
+        "New Viewers": 19,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-03-04",
+        "Total Viewers": 27,
+        "New Viewers": 14,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-05",
+        "Total Viewers": 32,
+        "New Viewers": 19,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-06",
+        "Total Viewers": 26,
+        "New Viewers": 16,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-03-07",
+        "Total Viewers": 45,
+        "New Viewers": 22,
+        "Returning Viewers": 23
+      },
+      {
+        "date": "2026-03-08",
+        "Total Viewers": 37,
+        "New Viewers": 23,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-03-09",
+        "Total Viewers": 23,
+        "New Viewers": 10,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-10",
+        "Total Viewers": 36,
+        "New Viewers": 24,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-03-11",
+        "Total Viewers": 31,
+        "New Viewers": 18,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-12",
+        "Total Viewers": 70,
+        "New Viewers": 52,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-03-13",
+        "Total Viewers": 80,
+        "New Viewers": 60,
+        "Returning Viewers": 20
+      },
+      {
+        "date": "2026-03-14",
+        "Total Viewers": 43,
+        "New Viewers": 27,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-03-15",
+        "Total Viewers": 59,
+        "New Viewers": 40,
+        "Returning Viewers": 19
+      },
+      {
+        "date": "2026-03-16",
+        "Total Viewers": 86,
+        "New Viewers": 59,
+        "Returning Viewers": 27
+      },
+      {
+        "date": "2026-03-17",
+        "Total Viewers": 76,
+        "New Viewers": 51,
+        "Returning Viewers": 25
+      },
+      {
+        "date": "2026-03-18",
+        "Total Viewers": 64,
+        "New Viewers": 46,
+        "Returning Viewers": 18
+      },
+      {
+        "date": "2026-03-19",
+        "Total Viewers": 57,
+        "New Viewers": 43,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-03-20",
+        "Total Viewers": 72,
+        "New Viewers": 47,
+        "Returning Viewers": 25
+      },
+      {
+        "date": "2026-03-21",
+        "Total Viewers": 69,
+        "New Viewers": 52,
+        "Returning Viewers": 17
+      },
+      {
+        "date": "2026-03-22",
+        "Total Viewers": 48,
+        "New Viewers": 36,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-03-23",
+        "Total Viewers": 60,
+        "New Viewers": 43,
+        "Returning Viewers": 17
+      },
+      {
+        "date": "2026-03-24",
+        "Total Viewers": 40,
+        "New Viewers": 19,
+        "Returning Viewers": 21
+      },
+      {
+        "date": "2026-03-25",
+        "Total Viewers": 33,
+        "New Viewers": 20,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-26",
+        "Total Viewers": 36,
+        "New Viewers": 23,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-03-27",
+        "Total Viewers": 29,
+        "New Viewers": 18,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-03-28",
+        "Total Viewers": 44,
+        "New Viewers": 24,
+        "Returning Viewers": 20
+      },
+      {
+        "date": "2026-03-29",
+        "Total Viewers": 38,
+        "New Viewers": 21,
+        "Returning Viewers": 17
+      },
+      {
+        "date": "2026-03-30",
+        "Total Viewers": 27,
+        "New Viewers": 13,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-03-31",
+        "Total Viewers": 32,
+        "New Viewers": 16,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-04-01",
+        "Total Viewers": 23,
+        "New Viewers": 14,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-04-02",
+        "Total Viewers": 33,
+        "New Viewers": 16,
+        "Returning Viewers": 17
+      },
+      {
+        "date": "2026-04-03",
+        "Total Viewers": 43,
+        "New Viewers": 29,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-04-04",
+        "Total Viewers": 27,
+        "New Viewers": 13,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-04-05",
+        "Total Viewers": 26,
+        "New Viewers": 14,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-06",
+        "Total Viewers": 23,
+        "New Viewers": 15,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-04-07",
+        "Total Viewers": 28,
+        "New Viewers": 11,
+        "Returning Viewers": 17
+      },
+      {
+        "date": "2026-04-08",
+        "Total Viewers": 22,
+        "New Viewers": 10,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-09",
+        "Total Viewers": 28,
+        "New Viewers": 13,
+        "Returning Viewers": 15
+      },
+      {
+        "date": "2026-04-10",
+        "Total Viewers": 21,
+        "New Viewers": 9,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-11",
+        "Total Viewers": 17,
+        "New Viewers": 11,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-04-12",
+        "Total Viewers": 27,
+        "New Viewers": 12,
+        "Returning Viewers": 15
+      },
+      {
+        "date": "2026-04-13",
+        "Total Viewers": 23,
+        "New Viewers": 16,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-04-14",
+        "Total Viewers": 22,
+        "New Viewers": 13,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-04-15",
+        "Total Viewers": 25,
+        "New Viewers": 12,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-04-16",
+        "Total Viewers": 23,
+        "New Viewers": 11,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-17",
+        "Total Viewers": 22,
+        "New Viewers": 7,
+        "Returning Viewers": 15
+      },
+      {
+        "date": "2026-04-18",
+        "Total Viewers": 16,
+        "New Viewers": 7,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-04-19",
+        "Total Viewers": 19,
+        "New Viewers": 7,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-20",
+        "Total Viewers": 23,
+        "New Viewers": 11,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-04-21",
+        "Total Viewers": 16,
+        "New Viewers": 11,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-04-22",
+        "Total Viewers": 14,
+        "New Viewers": 7,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-04-23",
+        "Total Viewers": 21,
+        "New Viewers": 8,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-04-24",
+        "Total Viewers": 19,
+        "New Viewers": 6,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-04-25",
+        "Total Viewers": 20,
+        "New Viewers": 11,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-04-26",
+        "Total Viewers": 28,
+        "New Viewers": 8,
+        "Returning Viewers": 20
+      },
+      {
+        "date": "2026-04-27",
+        "Total Viewers": 18,
+        "New Viewers": 9,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-04-28",
+        "Total Viewers": 28,
+        "New Viewers": 12,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-04-29",
+        "Total Viewers": 16,
+        "New Viewers": 6,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-04-30",
+        "Total Viewers": 24,
+        "New Viewers": 15,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-01",
+        "Total Viewers": 23,
+        "New Viewers": 7,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-05-02",
+        "Total Viewers": 19,
+        "New Viewers": 6,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-05-03",
+        "Total Viewers": 12,
+        "New Viewers": 5,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-05-04",
+        "Total Viewers": 19,
+        "New Viewers": 5,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-05-05",
+        "Total Viewers": 23,
+        "New Viewers": 13,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-05-06",
+        "Total Viewers": 19,
+        "New Viewers": 5,
+        "Returning Viewers": 14
+      },
+      {
+        "date": "2026-05-07",
+        "Total Viewers": 18,
+        "New Viewers": 11,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-05-08",
+        "Total Viewers": 20,
+        "New Viewers": 11,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-09",
+        "Total Viewers": 18,
+        "New Viewers": 9,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-10",
+        "Total Viewers": 20,
+        "New Viewers": 12,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-05-11",
+        "Total Viewers": 27,
+        "New Viewers": 11,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-05-12",
+        "Total Viewers": 15,
+        "New Viewers": 7,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-05-13",
+        "Total Viewers": 13,
+        "New Viewers": 4,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-14",
+        "Total Viewers": 18,
+        "New Viewers": 9,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-15",
+        "Total Viewers": 21,
+        "New Viewers": 8,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-05-16",
+        "Total Viewers": 22,
+        "New Viewers": 10,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-05-17",
+        "Total Viewers": 15,
+        "New Viewers": 8,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-05-18",
+        "Total Viewers": 16,
+        "New Viewers": 8,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-05-19",
+        "Total Viewers": 26,
+        "New Viewers": 14,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-05-20",
+        "Total Viewers": 23,
+        "New Viewers": 12,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-05-21",
+        "Total Viewers": 9,
+        "New Viewers": 3,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-05-22",
+        "Total Viewers": 17,
+        "New Viewers": 8,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-23",
+        "Total Viewers": 13,
+        "New Viewers": 5,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-05-24",
+        "Total Viewers": 17,
+        "New Viewers": 7,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-05-25",
+        "Total Viewers": 12,
+        "New Viewers": 5,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-05-26",
+        "Total Viewers": 20,
+        "New Viewers": 9,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-05-27",
+        "Total Viewers": 20,
+        "New Viewers": 8,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-05-28",
+        "Total Viewers": 20,
+        "New Viewers": 7,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-05-29",
+        "Total Viewers": 25,
+        "New Viewers": 16,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-05-30",
+        "Total Viewers": 21,
+        "New Viewers": 11,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-05-31",
+        "Total Viewers": 21,
+        "New Viewers": 13,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-06-01",
+        "Total Viewers": 23,
+        "New Viewers": 12,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-06-02",
+        "Total Viewers": 18,
+        "New Viewers": 11,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-03",
+        "Total Viewers": 27,
+        "New Viewers": 16,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-06-04",
+        "Total Viewers": 13,
+        "New Viewers": 9,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-06-05",
+        "Total Viewers": 16,
+        "New Viewers": 6,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-06-06",
+        "Total Viewers": 17,
+        "New Viewers": 10,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-07",
+        "Total Viewers": 13,
+        "New Viewers": 7,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-08",
+        "Total Viewers": 22,
+        "New Viewers": 12,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-06-09",
+        "Total Viewers": 15,
+        "New Viewers": 5,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-06-10",
+        "Total Viewers": 11,
+        "New Viewers": 5,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-11",
+        "Total Viewers": 12,
+        "New Viewers": 6,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-12",
+        "Total Viewers": 20,
+        "New Viewers": 9,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-06-13",
+        "Total Viewers": 18,
+        "New Viewers": 10,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-06-14",
+        "Total Viewers": 16,
+        "New Viewers": 9,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-15",
+        "Total Viewers": 20,
+        "New Viewers": 13,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-16",
+        "Total Viewers": 27,
+        "New Viewers": 17,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-06-17",
+        "Total Viewers": 22,
+        "New Viewers": 9,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-06-18",
+        "Total Viewers": 22,
+        "New Viewers": 6,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-06-19",
+        "Total Viewers": 16,
+        "New Viewers": 6,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-06-20",
+        "Total Viewers": 26,
+        "New Viewers": 17,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-06-21",
+        "Total Viewers": 12,
+        "New Viewers": 6,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-22",
+        "Total Viewers": 21,
+        "New Viewers": 12,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-06-23",
+        "Total Viewers": 26,
+        "New Viewers": 15,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-06-24",
+        "Total Viewers": 22,
+        "New Viewers": 16,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-25",
+        "Total Viewers": 21,
+        "New Viewers": 15,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-06-26",
+        "Total Viewers": 16,
+        "New Viewers": 9,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-27",
+        "Total Viewers": 17,
+        "New Viewers": 9,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-06-28",
+        "Total Viewers": 14,
+        "New Viewers": 7,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-06-29",
+        "Total Viewers": 10,
+        "New Viewers": 6,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-06-30",
+        "Total Viewers": 24,
+        "New Viewers": 8,
+        "Returning Viewers": 16
+      },
+      {
+        "date": "2026-07-01",
+        "Total Viewers": 15,
+        "New Viewers": 7,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-07-02",
+        "Total Viewers": 19,
+        "New Viewers": 13,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-07-03",
+        "Total Viewers": 18,
+        "New Viewers": 11,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-07-04",
+        "Total Viewers": 21,
+        "New Viewers": 13,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-07-05",
+        "Total Viewers": 19,
+        "New Viewers": 7,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-07-06",
+        "Total Viewers": 22,
+        "New Viewers": 13,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-07-07",
+        "Total Viewers": 18,
+        "New Viewers": 8,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-07-08",
+        "Total Viewers": 14,
+        "New Viewers": 10,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-07-09",
+        "Total Viewers": 22,
+        "New Viewers": 14,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-07-10",
+        "Total Viewers": 16,
+        "New Viewers": 8,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-07-11",
+        "Total Viewers": 17,
+        "New Viewers": 11,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-07-12",
+        "Total Viewers": 14,
+        "New Viewers": 11,
+        "Returning Viewers": 3
+      },
+      {
+        "date": "2026-07-13",
+        "Total Viewers": 14,
+        "New Viewers": 6,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-07-14",
+        "Total Viewers": 12,
+        "New Viewers": 5,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-07-15",
+        "Total Viewers": 22,
+        "New Viewers": 12,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-07-16",
+        "Total Viewers": 27,
+        "New Viewers": 14,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-07-17",
+        "Total Viewers": 8,
+        "New Viewers": 5,
+        "Returning Viewers": 3
+      },
+      {
+        "date": "2026-07-18",
+        "Total Viewers": 17,
+        "New Viewers": 8,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-07-19",
+        "Total Viewers": 17,
+        "New Viewers": 10,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-07-20",
+        "Total Viewers": 15,
+        "New Viewers": 8,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-07-21",
+        "Total Viewers": 18,
+        "New Viewers": 11,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-07-22",
+        "Total Viewers": 17,
+        "New Viewers": 12,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-07-23",
+        "Total Viewers": 20,
+        "New Viewers": 8,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-07-24",
+        "Total Viewers": 16,
+        "New Viewers": 10,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-07-25",
+        "Total Viewers": 18,
+        "New Viewers": 8,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-07-26",
+        "Total Viewers": 14,
+        "New Viewers": 8,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-07-27",
+        "Total Viewers": 27,
+        "New Viewers": 14,
+        "Returning Viewers": 13
+      },
+      {
+        "date": "2026-07-28",
+        "Total Viewers": 20,
+        "New Viewers": 10,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-07-29",
+        "Total Viewers": 16,
+        "New Viewers": 12,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-07-30",
+        "Total Viewers": 17,
+        "New Viewers": 13,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-07-31",
+        "Total Viewers": 21,
+        "New Viewers": 12,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-08-01",
+        "Total Viewers": 15,
+        "New Viewers": 6,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-08-02",
+        "Total Viewers": 22,
+        "New Viewers": 10,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-08-03",
+        "Total Viewers": 10,
+        "New Viewers": 4,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-08-04",
+        "Total Viewers": 19,
+        "New Viewers": 10,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-08-05",
+        "Total Viewers": 13,
+        "New Viewers": 7,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-08-06",
+        "Total Viewers": 34,
+        "New Viewers": 23,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-08-07",
+        "Total Viewers": 26,
+        "New Viewers": 19,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-08-08",
+        "Total Viewers": 16,
+        "New Viewers": 7,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-08-09",
+        "Total Viewers": 13,
+        "New Viewers": 8,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-08-10",
+        "Total Viewers": 15,
+        "New Viewers": 7,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-11",
+        "Total Viewers": 16,
+        "New Viewers": 7,
+        "Returning Viewers": 9
+      },
+      {
+        "date": "2026-08-12",
+        "Total Viewers": 18,
+        "New Viewers": 10,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-13",
+        "Total Viewers": 23,
+        "New Viewers": 17,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-08-14",
+        "Total Viewers": 19,
+        "New Viewers": 8,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-08-15",
+        "Total Viewers": 21,
+        "New Viewers": 10,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-08-16",
+        "Total Viewers": 18,
+        "New Viewers": 14,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-08-17",
+        "Total Viewers": 24,
+        "New Viewers": 16,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-18",
+        "Total Viewers": 14,
+        "New Viewers": 7,
+        "Returning Viewers": 7
+      },
+      {
+        "date": "2026-08-19",
+        "Total Viewers": 18,
+        "New Viewers": 14,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-08-20",
+        "Total Viewers": 14,
+        "New Viewers": 6,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-21",
+        "Total Viewers": 15,
+        "New Viewers": 13,
+        "Returning Viewers": 2
+      },
+      {
+        "date": "2026-08-22",
+        "Total Viewers": 10,
+        "New Viewers": 10,
+        "Returning Viewers": 0
+      },
+      {
+        "date": "2026-08-23",
+        "Total Viewers": 44,
+        "New Viewers": 36,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-24",
+        "Total Viewers": 54,
+        "New Viewers": 50,
+        "Returning Viewers": 4
+      },
+      {
+        "date": "2026-08-25",
+        "Total Viewers": 40,
+        "New Viewers": 34,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-08-26",
+        "Total Viewers": 42,
+        "New Viewers": 31,
+        "Returning Viewers": 11
+      },
+      {
+        "date": "2026-08-27",
+        "Total Viewers": 33,
+        "New Viewers": 23,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-08-28",
+        "Total Viewers": 37,
+        "New Viewers": 27,
+        "Returning Viewers": 10
+      },
+      {
+        "date": "2026-08-29",
+        "Total Viewers": 34,
+        "New Viewers": 22,
+        "Returning Viewers": 12
+      },
+      {
+        "date": "2026-08-30",
+        "Total Viewers": 25,
+        "New Viewers": 17,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-08-31",
+        "Total Viewers": 15,
+        "New Viewers": 12,
+        "Returning Viewers": 3
+      },
+      {
+        "date": "2026-09-01",
+        "Total Viewers": 29,
+        "New Viewers": 24,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-09-02",
+        "Total Viewers": 24,
+        "New Viewers": 18,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-09-03",
+        "Total Viewers": 21,
+        "New Viewers": 16,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-09-04",
+        "Total Viewers": 18,
+        "New Viewers": 13,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-09-05",
+        "Total Viewers": 31,
+        "New Viewers": 23,
+        "Returning Viewers": 8
+      },
+      {
+        "date": "2026-09-06",
+        "Total Viewers": 18,
+        "New Viewers": 12,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-09-07",
+        "Total Viewers": 21,
+        "New Viewers": 16,
+        "Returning Viewers": 5
+      },
+      {
+        "date": "2026-09-08",
+        "Total Viewers": 22,
+        "New Viewers": 16,
+        "Returning Viewers": 6
+      },
+      {
+        "date": "2026-09-09",
+        "Total Viewers": 19,
+        "New Viewers": 18,
+        "Returning Viewers": 1
+      },
+      {
+        "date": "2026-09-10",
+        "Total Viewers": 16,
+        "New Viewers": 9,
+        "Returning Viewers": 7
+      }
+    ],
+    "daily_sum": {
+      "Total Viewers": 2694947,
+      "New Viewers": 2232045,
+      "Returning Viewers": 462902
+    },
+    "note": "Sommes de spectateurs quotidiens, PAS des personnes uniques sur un an. Décalage apparent avec Overview : pas de correction automatique."
+  },
+  "caveats": [
+    "Échantillon Content limité à 15 posts ; biais de sélection possible.",
+    "Pas de rétention, durée, source de trafic, sauvegardes, âge, ni abonnements par publication.",
+    "Comparaison des posts non contrôlée : âge, diffusion et format confondus.",
+    "Les commentaires quotidiens comprennent des valeurs négatives ; conserver les ajustements.",
+    "Un compteur d’abonnés stable ne mesure pas une audience encore engagée.",
+    "Captions = indices de classement éditorial, pas preuve visuelle du montage."
+  ]
+}
