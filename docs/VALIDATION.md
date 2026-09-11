@@ -24,3 +24,7 @@ Les images et journaux réels sont dans `runtime/` sur le Mac, exclus de Git. Un
 Pas de déploiement VPS effectué. Pas de test physique sur iPhone/Android : les petits écrans ont été vérifiés dans Chromium. Le partage de plusieurs images vers Photos/TikTok dépend du navigateur et de HTTPS ; le ZIP et les liens individuels sont disponibles. Pas de connexion ou publication TikTok effectuée.
 
 Le chemin natif Codex est vérifié sur ce Mac ; sa disponibilité doit être retestée sur le futur VPS. Les projets génériques sont vérifiés fonctionnellement avec des fixtures ; le lot réel de validation est One Piece. La qualité graphique et la justesse des textes ne sont pas prouvées par les tests de fichiers.
+
+## Révision photo et interface agent
+
+14 tests backend passent. Une correction de la couverture du post `8c4f87da9a7b40938311a06e881d4130` a été déclenchée réellement par `cli.py`, consommée par le serveur et importée comme nouvelle version. La retouche finale `ebed91d6f3384914a6b53cbe7d40e596` est terminée ; image 1024×1536 inspectée, regard vers les mains, cadrage par la porte, lumière du hublot, manche corrigée sans emblème. Les trois versions existent encore. Cela valide le trajet CLI → file → Codex → stockage ; le batch via CLI et l’export ont été testés avec un provider synthétique. Hermes lui-même n’est pas installé ici. Le post féminin complet reste inachevé ; voir TODO.md.
