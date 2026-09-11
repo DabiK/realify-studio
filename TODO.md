@@ -8,8 +8,10 @@ Demandes utilisateur du 11 septembre 2026. Ce fichier est la mémoire de travail
 - [x] Fournir une CLI JSON pour Hermes : lancer une image ou un batch, suivre les jobs, corriger, reprendre et récupérer les fichiers. Partager Store et la file de l’app ; conserver un worker unique.
 - [x] Tester le contrat agent, documenter l’usage local et via SSH sur VPS. MCP facultatif : la CLI répond au besoin initial.
 - [ ] Reprendre le post Nami / Robin / Hancock avec la nouvelle direction et inspecter les vrais rendus. Conserver les versions précédentes.
-- [ ] Pousser les changements sur le dépôt privé et préciser les limites de validation.
+- [x] Pousser les changements sur le dépôt privé et préciser les limites de validation.
 
 Contraintes : abonnement Codex uniquement ; pas d’A/B testing ; pas de publication automatique sur TikTok. Hermes n’est pas présenté comme connecté tant qu’un appel depuis son environnement n’a pas été vérifié.
 
-Avancement : 13 tests backend passent, dont un parcours CLI avec fournisseur de test (aucun quota image consommé). Skill validé. Une génération cartoon lancée dans le studio a effectivement écrit son shot-plan.json avec le nouveau producteur. Le résultat photo premium et la connexion depuis Hermes restent à valider. Ne pas redémarrer le serveur pendant sa génération active ; le nouveau code Python sera chargé au prochain redémarrage, la CLI utilise déjà le code courant.
+Avancement : 14 tests backend passent, dont un parcours CLI avec fournisseur de test. Skill validé. Nouvelle couverture Nami générée réellement via la CLI et inspectée : cadrage par la porte, regard vers les mains, action lisible et lumière du hublot. Défaut de tatouage imprimé sur la manche identifié ; correction ciblée en cours, job `ebed91d6f3384914a6b53cbe7d40e596`. Le serveur a été redémarré sans job actif et utilise le nouveau code Python. Les versions précédentes sont conservées.
+
+À poursuivre : terminer et inspecter cette retouche, puis refaire Robin et les trois scènes manquantes selon [le découpage](docs/HEROINES-STORY.md). Le plafond local de 24 slots demandés / 24 h est atteint avec la dernière correction ; ne pas redemander les mêmes images en boucle. La disponibilité réelle de Codex reste distincte de ce plafond local. Hermes n’est pas installé sur ce Mac (`command -v hermes` absent, pas de dossier `~/.hermes`) ; son raccordement distant n’est pas prouvé, le contrat CLI est documenté et testé.
