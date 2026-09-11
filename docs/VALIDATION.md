@@ -31,8 +31,10 @@ Le chemin natif Codex est vérifié sur ce Mac ; sa disponibilité doit être re
 
 ## Cockpit agent et séries
 
-- 24 tests backend : épisode suivant et références, isolation des univers, concurrence/idempotence, attachement d’un post, mise à jour du plan futur, feedback résolu sans suppression, authentification du contrat HTTP, progression reçue distincte de validation.
+- 26 tests backend : épisode suivant et références, isolation des univers, concurrence/idempotence, attachement d’un post, mise à jour du plan futur, feedback résolu sans suppression, authentification du contrat HTTP, progression reçue distincte de validation.
 - 6 tests navigateur : anciennes fonctions préservées, filtres, navigation du lecteur, création de série et rechargement. Inspection de l’app réelle à 1440 et 390 px : aucun débordement ni erreur JavaScript constaté sur les vues posts/séries.
 - Épisode 1 réel complet : `8c4f87da9a7b40938311a06e881d4130`, cinq images natives inspectées ; manche et identité/accessoires de Hancock retouchés ; export `runtime/exports/heroines-final`. La qualité est jugée visuellement, pas certifiée par un score automatique.
 - Série réelle `937a277036ca42dfb34afae7f422deb5`, plan de trois épisodes et premier épisode rattaché sans modification des fichiers.
 - Raccordement Hermes distant non testé ; CLI réelle testée pour correction/export et lancement d’épisode. Les tests de concurrence n’utilisent pas de quota image.
+
+Épisode 2 `10d579911e1d44fea79963f2a791e54d` : cinq images natives reçues, ouvertes pour inspection, importées en état `ready` et exportées via CLI. Le brief contient les deux références de l’épisode 1. Les observations de qualité signalent deux premiers cadrages proches, un geste attribué à Nami plutôt qu’à Robin et une gravure simplifiée sur le fragment de carte. Ces limites restent consignées ; elles ne sont pas masquées par les tests techniques.

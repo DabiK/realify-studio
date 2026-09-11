@@ -97,3 +97,5 @@ Les seuils hebdomadaires demandés pendant un travail Codex sont surveillés par
 Le serveur local est actuellement lancé en processus détaché, accessible sur 8787 tant que le Mac reste éveillé. Le démarrage automatique à l’ouverture de session n’est pas installé : l’essai LaunchAgent a été retiré après absence d’écoute réseau. `scripts/start.sh` reste le point de lancement documenté. Ne pas lancer un deuxième serveur sur le même runtime.
 
 Pendant un job, `received_slots` rapporte les fichiers présents dans son dossier de sortie, sans les déclarer valides. `completed_slots` ne contient que les images importées après contrôle. Le navigateur conserve les versions actives précédentes pendant les corrections. Les compteurs ne sont pas un pourcentage de temps restant.
+
+Les références d’archives Realify sont sélectionnées selon le casting. Si les références du projet ou du précédent épisode suffisent, les personnages d’archives sans rapport sont omis. Cela réduit le contexte superflu et la confusion d’identité ; aucune référence ajoutée explicitement au projet n’est supprimée.

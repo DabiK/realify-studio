@@ -33,7 +33,8 @@ class Worker:
 
     def run_one(self):
         with self.store.db() as db:
-            db.execute('BEGIN IMMEDIATE')
+            if not db.in_transaction:
+                db.execute('BEGIN IMMEDIATE')
             row = db.execute("SELECT * FROM jobs WHERE state='queued' ORDER BY created LIMIT 1").fetchone()
             if not row:
                 return False
@@ -59,7 +60,8 @@ class Worker:
             try:
                 post = validate_post(json.loads((folder / 'post.json').read_text()))
                 with self.store.db() as db:
-                    db.execute('BEGIN IMMEDIATE')
+                    if not db.in_transaction:
+                        db.execute('BEGIN IMMEDIATE')
                     current = json.loads(db.execute('SELECT data FROM packs WHERE id=?', (pack['id'],)).fetchone()['data'])
                     current['post'] = post
                     current['title'] = post['title']
@@ -93,7 +95,8 @@ class Worker:
                            'job_id': job['id'], 'width': width, 'height': height,
                            'sha256': hashlib.sha256(dest.read_bytes()).hexdigest()}
                 with self.store.db() as db:
-                    db.execute('BEGIN IMMEDIATE')
+                    if not db.in_transaction:
+                        db.execute('BEGIN IMMEDIATE')
                     current = json.loads(db.execute('SELECT data FROM packs WHERE id=?', (pack['id'],)).fetchone()['data'])
                     slot = next(s for s in current['slots'] if s['key'] == key)
                     slot['versions'].append(version)
@@ -106,7 +109,8 @@ class Worker:
         complete = len(job['completed_slots']) == len(job['slots']) and (bool(job['correction']) or bool(self.store.pack(pack['id']).get('post')))
         job['message'] = 'Images disponibles' if complete else ('Génération incomplète. ' + (error or 'Codex n’a pas produit tous les fichiers attendus. Vérifier sa connexion et la disponibilité de la génération d’images.'))
         with self.store.db() as db:
-            db.execute('BEGIN IMMEDIATE')
+            if not db.in_transaction:
+                db.execute('BEGIN IMMEDIATE')
             db.execute('UPDATE jobs SET state=?,data=? WHERE id=?', ('completed' if complete else 'failed', json.dumps(job), job['id']))
             current = json.loads(db.execute('SELECT data FROM packs WHERE id=?', (pack['id'],)).fetchone()['data'])
             current['status'] = 'ready' if all(s['active'] for s in current['slots']) and current.get('post') else 'failed'
@@ -143,7 +147,13 @@ class Worker:
         reference_names = []
         if project['id'] == 'realify':
             shutil.copy2(ROOT / 'docs/CHANNEL.md', folder / 'CHANNEL.md')
-            for name in ['doflamingo.jpg', 'kaido.jpg', 'crocodile.jpg', 'bigmom.jpg', 'ace.jpg']:
+            cast = ' '.join(pack['concept'].get('subjects', [])).casefold()
+            archive_subjects = {'doflamingo.jpg': 'doflamingo', 'kaido.jpg': 'kaido', 'crocodile.jpg': 'crocodile', 'bigmom.jpg': 'big mom', 'ace.jpg': 'portgas'}
+            selected = [name for name, subject in archive_subjects.items() if subject in cast]
+            # User project references and episode frames take precedence over unrelated archive imagery.
+            if not selected and not project.get('reference_files') and not continuity:
+                selected = ['doflamingo.jpg']
+            for name in selected:
                 shutil.copy2(ROOT / 'web/assets' / name, refs / name)
                 reference_names.append('references/' + name)
         else:

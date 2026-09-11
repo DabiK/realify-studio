@@ -50,6 +50,8 @@ class StoryService:
                 result = operations[action]()
             elif action == 'pack.create':
                 result = self.store.create_pack(data, db=db)
+            elif action == 'job.recover':
+                result = self._recover(db, data)
             elif action == 'story.create':
                 result = self._create(db, data)
             elif action == 'story.update':
@@ -151,3 +153,16 @@ class StoryService:
         story.update({key:revised[key] for key in fields})
         db.execute('UPDATE stories SET data=? WHERE id=?', (json.dumps(story), story['id']))
         return story
+
+    def _recover(self, db, data):
+        from worker import Worker
+        job = next((j for j in self.store.jobs() if j['id'] == data.get('job_id')), None)
+        if not job or job['state'] != 'failed':
+            raise ValueError('La récupération concerne un travail en échec.')
+        if db.execute("SELECT 1 FROM jobs WHERE pack_id=? AND state IN ('queued','running')", (job['pack_id'],)).fetchone():
+            raise ValueError('Attendre la fin du travail actif sur ce post.')
+        folder = self.store.runtime / 'jobs' / job['id']
+        if not (folder / 'result.txt').is_file():
+            raise ValueError('Aucun compte rendu final Codex : vérifier le processus avant toute récupération manuelle.')
+        Worker(self.store).finalize(job, self.store.pack(job['pack_id']), folder)
+        return next(j for j in self.store.jobs() if j['id'] == job['id'])

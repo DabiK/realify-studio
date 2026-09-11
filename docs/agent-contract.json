@@ -101,6 +101,12 @@
         "outline"
       ],
       "constraint": "Le plan des épisodes déjà créés reste inchangé."
+    },
+    "job.recover": {
+      "required": [
+        "job_id"
+      ],
+      "constraint": "Job en échec, aucun travail actif sur le post, compte rendu final Codex présent. Valide/import les fichiers existants, sans nouvelle génération."
     }
   },
   "reads": [

@@ -91,3 +91,22 @@ class StoryContractTests(unittest.TestCase):
         self.assertEqual(reported['received_slots'],['cover'])
         self.assertEqual(reported['completed_slots'],[])
         self.assertIsNone(self.store.pack(p['id'])['slots'][0]['active'])
+    def test_episode_references_do_not_include_unrelated_archive_cast(self):
+        story=self.story();p=self.service.execute('story.next',{'story_id':story['id']},'one')
+        Worker(self.store,fake_provider).run_one()
+        p2=self.service.execute('story.next',{'story_id':story['id']},'two');Worker(self.store,fake_provider).run_one()
+        job=next(j for j in self.store.jobs() if j['pack_id']==p2['id']);brief=json.loads((self.store.runtime/'jobs'/job['id']/'brief.json').read_text())
+        self.assertEqual(brief['style_reference_images'],[])
+        self.assertEqual(len(brief['continuity_images']),2)
+    def test_agent_recovers_finished_artifacts_without_another_generation(self):
+        p=self.store.create_pack({'project_id':'realify','count':2});job=self.store.jobs()[0]
+        folder=self.store.runtime/'jobs'/job['id'];folder.mkdir(parents=True)
+        worker=Worker(self.store,fake_provider);worker.prepare(job,p,folder);fake_provider(job,folder)
+        with self.store.db() as db:db.execute("UPDATE jobs SET state='failed' WHERE id=?",(job['id'],))
+        with self.assertRaises(ValueError):self.service.execute('job.recover',{'job_id':job['id']},'recover')
+        (folder/'result.txt').write_text('Test fixture: completed output files.')
+        result=self.service.execute('job.recover',{'job_id':job['id']},'recover')
+        self.assertEqual(result['state'],'completed');self.assertEqual(len(self.store.jobs()),1)
+        self.assertEqual(self.store.pack(p['id'])['status'],'ready')
+        self.assertEqual(result,self.service.execute('job.recover',{'job_id':job['id']},'recover'))
+        self.assertEqual(len(self.store.pack(p['id'])['slots'][0]['versions']),1)

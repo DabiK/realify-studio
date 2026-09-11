@@ -10,7 +10,7 @@ Demandes du 11 septembre 2026. Budget utilisateur : travailler jusqu’à enviro
 - [x] Bibliothèque visuelle, recherche, filtres, grand lecteur, navigation clavier/tactile, accès rapide au feedback et aux téléchargements.
 - [x] Séparer dépôt SQLite, règles de validation, commandes narratives et worker ; répartir React en composants/vues.
 - [x] Recherche TikTok documentée et traduite en choix de produit sans fausse promesse de viralité.
-- [x] Tests métier et UI (22 backend, 6 navigateur au dernier contrôle), inspection desktop/mobile.
+- [x] Tests métier et UI (26 backend, 6 navigateur au dernier contrôle), inspection desktop/mobile.
 - [ ] Contrôler la production réelle de l’épisode 2 et, si le quota le permet, terminer le dernier épisode.
 - [ ] Vérification finale des exports, documentation à jour et push privé.
 
@@ -18,8 +18,9 @@ Demandes du 11 septembre 2026. Budget utilisateur : travailler jusqu’à enviro
 
 Série `937a277036ca42dfb34afae7f422deb5` : **L’île aux trois anneaux**.
 Épisode 1 `8c4f87da9a7b40938311a06e881d4130` : prêt, cinq images inspectées, export CLI réalisé.
-Épisode 2 `10d579911e1d44fea79963f2a791e54d` : job `10e28014455d42658bb68b7267baf261` lancé réellement par `cli.py command`.
+Épisode 2 `10d579911e1d44fea79963f2a791e54d` : prêt, cinq images inspectées et exportées.
+Épisode 3 `60dfd97f13254304bb964aef2cdda02e` : job `f3a154f68f9443bc8ba25bd829363e7e` lancé via le contrat agent ; conclusion de la série, pas de quatrième épisode prévu.
 
-Dernier relevé direct : 76 % restants, 11 septembre 2026 à 01:04 UTC. Vérifier avec `python3 scripts/weekly_quota.py --live` avant un nouveau batch. Le plafond local est de 40 slots/24 h ; il est distinct du quota Codex et a été ajusté pour les reprises et épisodes.
+Dernier relevé direct : 75 % restants, 11 septembre 2026 à 01:17 UTC. Vérifier avec `python3 scripts/weekly_quota.py --live` avant un nouveau batch. Le plafond local est de 40 slots/24 h ; il est distinct du quota Codex et a été ajusté pour les reprises et épisodes.
 
 Serveur détaché sur 8787 ; pas de LaunchAgent installé. Le Mac doit rester éveillé. Hermes n’est pas installé sur ce Mac : le contrat est prêt et testé, le raccordement depuis son environnement n’est pas présenté comme réalisé. Pas d’A/B testing, de fournisseur API payant, de reset de quota ni de publication automatique TikTok.
