@@ -42,3 +42,11 @@ L’ajout de texte passe par l’édition native d’image Codex. La précision 
 ## Suites possibles
 
 Migration vers un VPS après choix de l’hôte et test réel de connexion Codex ; notifications ; planification horaire facultative ; import des nouveaux exports analytics ; gestion plus fine des identités visuelles ; ajout de texte déterministe ; clips animés. Ces évolutions ne sont pas présentées comme déjà livrées.
+
+## Évolution du 11 septembre — priorité aux agents
+
+Les agents pilotent la production via un contrat JSON partagé avec l’app. L’humain consulte les posts, donne du feedback et télécharge ; les contrôles manuels de production restent disponibles. La bibliothèque affiche couvertures et miniatures, recherche et filtres. Le lecteur montre une image à la fois avec navigation et repères TikTok indicatifs.
+
+Les histoires peuvent couvrir 2 à 12 épisodes définis par un agent. Le formulaire propose trois épisodes génériques comme point de départ. Série, plan et règles de continuité persistent ; la génération de la suite reçoit les épisodes précédents et leurs références. La création d’une série seule ne génère aucune image. Une série Studio ne crée aucune playlist TikTok.
+
+Les retours récents possèdent un identifiant et peuvent recevoir une réponse d’agent, visible dans l’historique. Leur résolution ne supprime pas la préférence ni ne vaut approbation humaine. Les enseignements de recherche sont sourcés dans TIKTOK-RESEARCH.md ; aucune promesse algorithmique ni réintroduction d’A/B testing.

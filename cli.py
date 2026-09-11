@@ -7,6 +7,7 @@ import shutil
 import sys
 
 from studio import ROOT, Store
+from stories import StoryService
 
 
 def main(argv=None):
@@ -15,6 +16,11 @@ def main(argv=None):
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('projects')
     commands.add_parser('jobs')
+    commands.add_parser('stories')
+    commands.add_parser('inbox')
+    commands.add_parser('capabilities')
+    agent = commands.add_parser('command', help='Agent command envelope; see capabilities for supported actions')
+    agent.add_argument('--file', type=Path, required=True)
     generate = commands.add_parser('generate')
     generate.add_argument('--project', required=True)
     generate.add_argument('--count', type=int, default=5)
@@ -35,7 +41,18 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         store = Store(args.runtime)
-        if args.command == 'projects':
+        if args.command == 'capabilities':
+            result = json.loads((ROOT / 'docs/agent-contract.json').read_text())
+        elif args.command == 'command':
+            request = json.loads(args.file.read_text())
+            if not isinstance(request, dict):
+                raise ValueError('Objet JSON requis.')
+            result = StoryService(store).execute(request.get('action'), request.get('data'), request.get('request_id'))
+        elif args.command == 'inbox':
+            result = {'posts': [{'id':p['id'], 'project_id':p['project_id'], 'title':p['title'], 'status':p['status'], 'feedback':p['feedback'], 'story_id':p.get('story_id'), 'episode_number':p.get('episode_number')} for p in store.packs() if not p['published_at']], 'jobs':store.jobs(), 'stories':StoryService(store).stories()}
+        elif args.command == 'stories':
+            result = StoryService(store).stories()
+        elif args.command == 'projects':
             result = store.projects()
         elif args.command == 'jobs':
             result = store.jobs()

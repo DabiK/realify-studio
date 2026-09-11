@@ -59,8 +59,14 @@ npm run test:ui
 python3 scripts/analyze.py
 ```
 
-Les tests navigateur lancent une base temporaire et un provider explicitement synthétique, jamais le compte Codex réel. Les erreurs de génération sont visibles ; les relances sont volontaires, les versions conservées. Plafond local par défaut : 24 demandes d’images sur 24 h. Voir les variables de configuration dans l’architecture.
+Les tests navigateur lancent une base temporaire et un provider explicitement synthétique, jamais le compte Codex réel. Les erreurs de génération sont visibles ; les relances sont volontaires, les versions conservées. Plafond local par défaut : 40 demandes d’images sur 24 h. Voir les variables de configuration dans l’architecture.
 
 L’ajout de texte dépend du rendu du moteur image et mérite une relecture. Les captions et hashtags sont adaptés au contenu, sans garantie de portée ni prétention de connaître les tendances du jour. Le déploiement VPS est documenté, pas encore effectué.
 
 Pilotage par agent : voir [la CLI Hermes](docs/AGENT-CLI.md). Objectif actif et tâches restantes : [TODO.md](TODO.md).
+
+## Cockpit piloté par agents
+
+L’app sert à parcourir les posts, regarder les carrousels en grand, donner du feedback et télécharger. Les agents peuvent piloter les mêmes opérations avec `python3 cli.py capabilities`, `inbox` et `command --file demande.json`. Un `request_id` stable protège des doublons lors des reprises.
+
+Les séries gardent leur plan et leur continuité d’un épisode à l’autre ; les images précédentes accompagnent la génération de la suite. Le formulaire propose trois épisodes, le contrat agent accepte des plans de 2 à 12 épisodes. Voir [le contrat agent](docs/AGENT-CLI.md), [l’architecture](docs/ARCHITECTURE.md), [les choix TikTok sourcés](docs/TIKTOK-RESEARCH.md) et [l’avancement](TODO.md).

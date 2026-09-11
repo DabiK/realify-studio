@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "transport": {
+    "cli": "python3 cli.py command --file request.json",
+    "http": "POST /api/commands (session authentifiée)"
+  },
+  "envelope": {
+    "action": "nom de l’action",
+    "request_id": "identifiant stable conservé pour toute reprise de la même demande",
+    "data": {}
+  },
+  "actions": {
+    "pack.create": {
+      "required": [
+        "project_id"
+      ],
+      "optional": [
+        "count (1..5)",
+        "subjects",
+        "notes",
+        "concept_id"
+      ]
+    },
+    "pack.correct": {
+      "required": [
+        "pack_id",
+        "slot",
+        "instruction"
+      ]
+    },
+    "pack.restore": {
+      "required": [
+        "pack_id",
+        "slot",
+        "file"
+      ]
+    },
+    "pack.metadata": {
+      "required": [
+        "pack_id",
+        "title",
+        "description",
+        "hashtags"
+      ]
+    },
+    "pack.feedback": {
+      "required": [
+        "pack_id",
+        "text"
+      ]
+    },
+    "feedback.resolve": {
+      "required": [
+        "pack_id",
+        "feedback_id",
+        "resolution"
+      ]
+    },
+    "job.retry": {
+      "required": [
+        "job_id"
+      ]
+    },
+    "story.create": {
+      "required": [
+        "project_id",
+        "title",
+        "premise"
+      ],
+      "optional": [
+        "subjects",
+        "continuity",
+        "outline (2..12 objets title/beat/ending)"
+      ]
+    },
+    "story.attach": {
+      "required": [
+        "story_id",
+        "pack_id"
+      ],
+      "constraint": "Premier épisode seulement, série vide, post prêt et même projet."
+    },
+    "story.next": {
+      "required": [
+        "story_id"
+      ],
+      "optional": [
+        "notes"
+      ],
+      "constraint": "Épisodes précédents complets, aucune retouche active."
+    },
+    "story.update": {
+      "required": [
+        "story_id"
+      ],
+      "optional": [
+        "title",
+        "premise",
+        "subjects",
+        "continuity",
+        "outline"
+      ],
+      "constraint": "Le plan des épisodes déjà créés reste inchangé."
+    }
+  },
+  "reads": [
+    "projects",
+    "stories",
+    "inbox",
+    "jobs",
+    "status PACK_ID",
+    "capabilities"
+  ],
+  "exports": "export PACK_ID --output nouveau-dossier",
+  "states": [
+    "queued",
+    "running",
+    "completed",
+    "failed"
+  ],
+  "guarantees": [
+    "request_id + même action et contenu = résultat initial sans nouvelle mutation",
+    "request_id réutilisé avec un autre contenu = erreur",
+    "file partagée UI/agent, worker unique",
+    "versions conservées",
+    "aucune publication sur TikTok"
+  ]
+}

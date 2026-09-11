@@ -120,3 +120,61 @@ test("text edit targets only one image and preserves current version", async ({
     page.getByRole("link", { name: "Télécharger le post", exact: true }),
   ).toBeVisible();
 });
+
+test("library filters and carousel navigation", async ({ page }) => {
+  await page.getByPlaceholder("Titre, personnage…").fill("introuvable-xyz");
+  await expect(page.getByText("Aucun post pour ce filtre.")).toBeVisible();
+  await page.getByPlaceholder("Titre, personnage…").clear();
+  await expect(page.locator(".post-tile").first()).toBeVisible();
+  await page
+    .getByRole("button", { name: "Image suivante", exact: true })
+    .click();
+  await expect(page.getByText("IMAGE 2 / 5", { exact: true })).toBeVisible();
+  await page
+    .getByRole("button", { name: "Repères TikTok", exact: true })
+    .click();
+  await expect(page.locator(".preview-overlay")).toBeVisible();
+  await page
+    .getByRole("button", { name: "Voir l’image 1", exact: true })
+    .click();
+  await expect(page.getByText("IMAGE 1 / 5", { exact: true })).toBeVisible();
+});
+
+test("series creation, episode request and persistence", async ({ page }) => {
+  await page.getByRole("button", { name: "Les séries", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Nouvelle série", exact: true })
+    .click();
+  await page
+    .getByLabel("Nom de la série", { exact: true })
+    .fill("Le secret du phare");
+  await page
+    .getByLabel("L’histoire en quelques mots", { exact: true })
+    .fill("Une navigatrice suit trois signaux vers une île oubliée.");
+  await page
+    .getByLabel("Ce qui doit rester cohérent", { exact: true })
+    .fill("Même boussole, manteau vert, bateau en bois.");
+  await page
+    .getByRole("button", { name: "Créer la série", exact: true })
+    .click();
+  await expect(
+    page.getByRole("heading", { name: "Le secret du phare", exact: true }),
+  ).toBeVisible();
+  await page.reload();
+  await page.getByRole("button", { name: "Les séries", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "Le secret du phare", exact: true }),
+  ).toBeVisible();
+  const response = page.waitForResponse(
+    (r) => r.url().includes("/next") && r.request().method() === "POST",
+  );
+  await page
+    .getByRole("button", { name: "Préparer l’épisode 1", exact: true })
+    .click();
+  const pack = await (await response).json();
+  expect(pack.episode_number).toBe(1);
+  expect(pack.story_context.continuity).toContain("boussole");
+  await expect(
+    page.getByRole("heading", { name: /Le secret du phare · 01/ }).first(),
+  ).toBeVisible();
+});

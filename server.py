@@ -18,6 +18,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
 from PIL import Image
+from stories import StoryService
 from studio import ROOT, CONCEPTS, Store, Worker, uid
 
 
@@ -86,8 +87,8 @@ def make_server(store, host='127.0.0.1', port=8787):
                 jobs = store.jobs()
                 # Host process details and raw agent logs are deliberately not served.
                 return self.send(200, {'projects': store.projects(), 'packs': store.packs(), 'jobs': jobs,
-                                       'concepts': CONCEPTS,
-                                       'limits': {'daily_images': int(os.environ.get('STUDIO_DAILY_IMAGES', '24'))}})
+                                       'concepts': CONCEPTS, 'stories': StoryService(store).stories(),
+                                       'limits': {'daily_images': int(os.environ.get('STUDIO_DAILY_IMAGES', '40'))}})
             if path == '/api/analytics':
                 return self.send(200, (ROOT / 'data/analytics.json').read_bytes())
             if path.startswith('/media/'):
@@ -163,8 +164,14 @@ def make_server(store, host='127.0.0.1', port=8787):
             if path == '/api/projects':
                 return self.send(201, store.create_project(data))
             if path == '/api/packs':
-                return self.send(201, store.create_pack(data))
+                return self.send(201, StoryService(store).execute('pack.create', {k:v for k,v in data.items() if k != 'request_id'}, data.get('request_id')))
+            if path == '/api/commands':
+                return self.send(200, StoryService(store).execute(data.get('action'), data.get('data'), data.get('request_id')))
+            if path == '/api/stories':
+                return self.send(201, StoryService(store).execute('story.create', {k:v for k,v in data.items() if k != 'request_id'}, data.get('request_id')))
             parts = path.strip('/').split('/')
+            if len(parts) == 4 and parts[:2] == ['api', 'stories'] and parts[3] == 'next':
+                return self.send(201, StoryService(store).execute('story.next', {'story_id': parts[2], 'notes': data.get('notes', '')}, data.get('request_id')))
             if len(parts) == 4 and parts[:2] == ['api', 'packs']:
                 operations = {'correct': store.correct, 'restore': store.restore, 'feedback': store.feedback,
                               'metadata': store.metadata, 'publish': store.publish}

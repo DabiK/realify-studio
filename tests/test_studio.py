@@ -214,6 +214,19 @@ class HttpTests(unittest.TestCase):
         self.assertIn('HttpOnly', response.headers['Set-Cookie'])
         return response.headers['Set-Cookie'].split(';')[0]
 
+    def test_agent_command_endpoint_replays_and_requires_auth(self):
+        command = {'action':'story.create','request_id':'http-story','data':{'project_id':'realify','title':'HTTP saga','premise':'Une traversée.'}}
+        with self.assertRaises(urllib.error.HTTPError) as exc:
+            self.request('/api/commands',command)
+        self.assertEqual(exc.exception.code,401);exc.exception.close()
+        cookie=self.login()
+        first=json.load(self.request('/api/commands',command,cookie))
+        second=json.load(self.request('/api/commands',command,cookie))
+        self.assertEqual(first['id'],second['id'])
+        state=json.load(self.request('/api/state',cookie=cookie))
+        self.assertEqual(len(state['stories']),1)
+        self.assertEqual(self.store.jobs(),[])
+
     def test_http_auth_csrf_download_and_logout(self):
         with self.assertRaises(urllib.error.HTTPError) as exc:
             self.request('/api/state')

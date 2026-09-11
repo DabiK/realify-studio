@@ -1,17 +1,25 @@
-# Objectif actif — production photo et accès agent
+# Goal — cockpit TikTok piloté par agents
 
-Demandes utilisateur du 11 septembre 2026. Ce fichier est la mémoire de travail ; les cases cochées décrivent du travail vérifié.
+Demandes du 11 septembre 2026. Budget utilisateur : travailler jusqu’à environ **73 % restants du quota hebdomadaire Codex**, avec relevés périodiques. Ce seuil est une limite de travail, pas une cible de consommation inutile.
 
-- [x] Revoir le producteur : scènes vécues, caméra invisible, regards dirigés vers l’action, lumière motivée, variété des plans, références d’identité distinctes des poses et tenues.
-- [x] Transmettre cette direction durablement à Realify sans imposer One Piece aux autres projets.
-- [x] Préparer un découpage consultable avant génération et contrôler la continuité entre images.
-- [x] Fournir une CLI JSON pour Hermes : lancer une image ou un batch, suivre les jobs, corriger, reprendre et récupérer les fichiers. Partager Store et la file de l’app ; conserver un worker unique.
-- [x] Tester le contrat agent, documenter l’usage local et via SSH sur VPS. MCP facultatif : la CLI répond au besoin initial.
-- [ ] Reprendre le post Nami / Robin / Hancock avec la nouvelle direction et inspecter les vrais rendus. Conserver les versions précédentes.
-- [x] Pousser les changements sur le dépôt privé et préciser les limites de validation.
+- [x] Direction photo : caméra invisible, gestes naturels, lumière motivée, références d’identité, contrôle des sorties.
+- [x] Reprendre le récit Nami / Robin / Hancock en cinq images, corriger la manche et Hancock, conserver les versions et exporter la fiche.
+- [x] Séries de 2 à 12 épisodes : plan, continuité, références de l’épisode précédent, numérotation et blocage des suites prématurées.
+- [x] Rattacher un post existant au premier épisode et permettre aux agents de modifier seulement le plan des épisodes futurs.
+- [x] Contrat agent partagé CLI/API, découverte des actions, boîte de réception, résolution des feedbacks et requêtes idempotentes.
+- [x] Bibliothèque visuelle, recherche, filtres, grand lecteur, navigation clavier/tactile, accès rapide au feedback et aux téléchargements.
+- [x] Séparer dépôt SQLite, règles de validation, commandes narratives et worker ; répartir React en composants/vues.
+- [x] Recherche TikTok documentée et traduite en choix de produit sans fausse promesse de viralité.
+- [x] Tests métier et UI (22 backend, 6 navigateur au dernier contrôle), inspection desktop/mobile.
+- [ ] Contrôler la production réelle de l’épisode 2 et, si le quota le permet, terminer le dernier épisode.
+- [ ] Vérification finale des exports, documentation à jour et push privé.
 
-Contraintes : abonnement Codex uniquement ; pas d’A/B testing ; pas de publication automatique sur TikTok. Hermes n’est pas présenté comme connecté tant qu’un appel depuis son environnement n’a pas été vérifié.
+## État réel
 
-Avancement : 14 tests backend passent, dont un parcours CLI avec fournisseur de test. Skill validé. Nouvelle couverture Nami générée réellement via la CLI et inspectée : cadrage par la porte, regard vers les mains, action lisible et lumière du hublot. Défaut de tatouage imprimé sur la manche corrigé ; job `ebed91d6f3384914a6b53cbe7d40e596` terminé et image finale inspectée. Trois versions de couverture conservées. Le serveur a été redémarré sans job actif et utilise le nouveau code Python. Les versions précédentes sont conservées.
+Série `937a277036ca42dfb34afae7f422deb5` : **L’île aux trois anneaux**.
+Épisode 1 `8c4f87da9a7b40938311a06e881d4130` : prêt, cinq images inspectées, export CLI réalisé.
+Épisode 2 `10d579911e1d44fea79963f2a791e54d` : job `10e28014455d42658bb68b7267baf261` lancé réellement par `cli.py command`.
 
-À poursuivre : refaire Robin et les trois scènes manquantes selon [le découpage](docs/HEROINES-STORY.md). Le plafond local de 24 slots demandés / 24 h est atteint avec la dernière correction ; ne pas redemander les mêmes images en boucle. La disponibilité réelle de Codex reste distincte de ce plafond local. Hermes n’est pas installé sur ce Mac (`command -v hermes` absent, pas de dossier `~/.hermes`) ; son raccordement distant n’est pas prouvé, le contrat CLI est documenté et testé.
+Dernier relevé direct : 76 % restants, 11 septembre 2026 à 01:04 UTC. Vérifier avec `python3 scripts/weekly_quota.py --live` avant un nouveau batch. Le plafond local est de 40 slots/24 h ; il est distinct du quota Codex et a été ajusté pour les reprises et épisodes.
+
+Serveur détaché sur 8787 ; pas de LaunchAgent installé. Le Mac doit rester éveillé. Hermes n’est pas installé sur ce Mac : le contrat est prêt et testé, le raccordement depuis son environnement n’est pas présenté comme réalisé. Pas d’A/B testing, de fournisseur API payant, de reset de quota ni de publication automatique TikTok.

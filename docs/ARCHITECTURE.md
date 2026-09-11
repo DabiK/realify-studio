@@ -49,7 +49,7 @@ Le serveur écoute par défaut sur 127.0.0.1. Pour le téléphone sur le réseau
 |---|---|---|
 | `STUDIO_RUNTIME` | `./runtime` | Volume persistant |
 | `STUDIO_CODEX_BIN` | `codex` | Exécutable Codex |
-| `STUDIO_DAILY_IMAGES` | `24` | Nombre de slots demandés sur 24 h, reprises comprises |
+| `STUDIO_DAILY_IMAGES` | `40` | Nombre de slots demandés sur 24 h, reprises comprises |
 | `STUDIO_JOB_TIMEOUT` | `1500` | Délai maximal par travail, secondes |
 | `STUDIO_SECURE_COOKIE` | absent | `1` derrière HTTPS |
 | `CODEX_HOME` | géré par Codex | Configuration, skills et authentification de l’utilisateur |
@@ -80,3 +80,18 @@ Les sources documentaires établissent les interfaces ; le test réel décrit da
 `cli.py` et l’API utilisent le même `Store`. Les demandes agent n’embarquent pas de worker : le serveur reste propriétaire unique de la consommation de la file. `create_pack` accepte désormais `count` de 1 à 5 et une liste de sujets facultative, sans modifier la sélection du projet pour les demandes suivantes. L’UI conserve cinq images par défaut. Contrat complet : [AGENT-CLI.md](AGENT-CLI.md).
 
 Le producteur écrit un `shot-plan.json` avant génération et un `shot-review.json` après inspection. Ces fichiers internes ne sont pas une preuve automatique de qualité ; le worker valide les fichiers image et la fiche, le jugement visuel reste qualitatif. Les images actives du même pack sont transmises dans `continuity_images`, même pour les slots non demandés, afin d’aider les reprises et corrections sans réécrire les autres images. Les instructions distinguent identité et pose des références ; la DA Realify privilégie des moments vécus et une lumière liée au lieu. Les autres projets gardent leur esthétique.
+
+## Organisation actuelle
+
+- `domain.py` : concepts, chemins et validation des valeurs. Aucun effet de bord de base ou de processus.
+- `studio.py` : dépôt SQLite et opérations sur les posts. Connexion transactionnelle locale au thread ; les appels imbriqués partagent la même transaction.
+- `stories.py` : service de commandes utilisé par CLI et HTTP, reçus d’idempotence et épisodes. Les tables `stories` et `requests` sont ajoutées sans migration destructive des posts existants.
+- `worker.py` : création du brief, cycle de vie Codex et validation/import des fichiers immuables. `finalize` permet de récupérer des fichiers natifs terminés après interruption sans les régénérer ; les slots déjà importés sont ignorés.
+- `server.py` / `cli.py` : adaptateurs, aucune seconde implémentation des règles des séries.
+- `web/App.jsx` : navigation et état partagé ; `components/` : lecteur, bibliothèque, éditeur, fiche, formulaires et primitives ; `views/` : séries, direction, analytics ; `lib.js` : transport et utilitaires.
+
+Le contrôle des épisodes est transactionnel : on ne crée pas deux suites lorsque deux appels rejouent la même demande. Le marquage local de publication d’un épisode suit sa série si l’auto-next est activé et qu’aucun autre brouillon n’attend ; la fin de la série n’engendre pas une série infinie.
+
+Les seuils hebdomadaires demandés pendant un travail Codex sont surveillés par relevés ; ils ne constituent pas un arrêt automatique du worker à un pourcentage exact. La limite locale de slots est distincte. Aucun crédit de reset ou fournisseur payant n’est utilisé.
+
+Le serveur local est actuellement lancé en processus détaché, accessible sur 8787 tant que le Mac reste éveillé. Le démarrage automatique à l’ouverture de session n’est pas installé : l’essai LaunchAgent a été retiré après absence d’écoute réseau. `scripts/start.sh` reste le point de lancement documenté. Ne pas lancer un deuxième serveur sur le même runtime.
