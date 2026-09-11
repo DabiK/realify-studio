@@ -110,7 +110,14 @@ class Store:
 
     def jobs(self):
         with self.db() as db:
-            return [{**json.loads(r['data']), 'state': r['state']} for r in db.execute('SELECT * FROM jobs ORDER BY created DESC')]
+            jobs = [{**json.loads(r['data']), 'state': r['state']} for r in db.execute('SELECT * FROM jobs ORDER BY created DESC')]
+        for job in jobs:
+            if job['state'] == 'running':
+                folder = self.runtime / 'jobs' / job['id'] / 'images'
+                job['received_slots'] = [key for key in job['slots'] if (folder / f'{key}.png').is_file()]
+            else:
+                job['received_slots'] = job.get('completed_slots', [])
+        return jobs
 
     def _queue(self, db, pack, slots, correction=''):
         if db.execute("SELECT 1 FROM jobs WHERE pack_id=? AND state IN ('queued','running')", (pack['id'],)).fetchone():

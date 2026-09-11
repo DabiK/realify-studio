@@ -28,3 +28,11 @@ Le chemin natif Codex est vérifié sur ce Mac ; sa disponibilité doit être re
 ## Révision photo et interface agent
 
 14 tests backend passent. Une correction de la couverture du post `8c4f87da9a7b40938311a06e881d4130` a été déclenchée réellement par `cli.py`, consommée par le serveur et importée comme nouvelle version. La retouche finale `ebed91d6f3384914a6b53cbe7d40e596` est terminée ; image 1024×1536 inspectée, regard vers les mains, cadrage par la porte, lumière du hublot, manche corrigée sans emblème. Les trois versions existent encore. Cela valide le trajet CLI → file → Codex → stockage ; le batch via CLI et l’export ont été testés avec un provider synthétique. Hermes lui-même n’est pas installé ici. Le post féminin complet reste inachevé ; voir TODO.md.
+
+## Cockpit agent et séries
+
+- 24 tests backend : épisode suivant et références, isolation des univers, concurrence/idempotence, attachement d’un post, mise à jour du plan futur, feedback résolu sans suppression, authentification du contrat HTTP, progression reçue distincte de validation.
+- 6 tests navigateur : anciennes fonctions préservées, filtres, navigation du lecteur, création de série et rechargement. Inspection de l’app réelle à 1440 et 390 px : aucun débordement ni erreur JavaScript constaté sur les vues posts/séries.
+- Épisode 1 réel complet : `8c4f87da9a7b40938311a06e881d4130`, cinq images natives inspectées ; manche et identité/accessoires de Hancock retouchés ; export `runtime/exports/heroines-final`. La qualité est jugée visuellement, pas certifiée par un score automatique.
+- Série réelle `937a277036ca42dfb34afae7f422deb5`, plan de trois épisodes et premier épisode rattaché sans modification des fichiers.
+- Raccordement Hermes distant non testé ; CLI réelle testée pour correction/export et lancement d’épisode. Les tests de concurrence n’utilisent pas de quota image.

@@ -95,3 +95,5 @@ Le contrôle des épisodes est transactionnel : on ne crée pas deux suites lors
 Les seuils hebdomadaires demandés pendant un travail Codex sont surveillés par relevés ; ils ne constituent pas un arrêt automatique du worker à un pourcentage exact. La limite locale de slots est distincte. Aucun crédit de reset ou fournisseur payant n’est utilisé.
 
 Le serveur local est actuellement lancé en processus détaché, accessible sur 8787 tant que le Mac reste éveillé. Le démarrage automatique à l’ouverture de session n’est pas installé : l’essai LaunchAgent a été retiré après absence d’écoute réseau. `scripts/start.sh` reste le point de lancement documenté. Ne pas lancer un deuxième serveur sur le même runtime.
+
+Pendant un job, `received_slots` rapporte les fichiers présents dans son dossier de sortie, sans les déclarer valides. `completed_slots` ne contient que les images importées après contrôle. Le navigateur conserve les versions actives précédentes pendant les corrections. Les compteurs ne sont pas un pourcentage de temps restant.

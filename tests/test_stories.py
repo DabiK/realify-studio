@@ -71,3 +71,23 @@ class StoryContractTests(unittest.TestCase):
         self.assertEqual(updated['outline'][1]['beat'],outline[1]['beat'])
         outline[0]['beat']='Réécrire le passé.'
         with self.assertRaises(ValueError):self.service.execute('story.update',{'story_id':story['id'],'outline':outline},'bad-update')
+    def test_generic_series_brief_stays_in_its_own_universe(self):
+        project=self.store.create_project({'name':'Botanique','universe':'Jardin','direction':'Illustration botanique','subjects':['Orchidée'],'ratio':'1:1'})
+        story=self.service.execute('story.create',{'project_id':project['id'],'title':'Une graine','premise':'Suivre une germination.'},'botanical-story')
+        p=self.service.execute('story.next',{'story_id':story['id']},'botanical-episode')
+        Worker(self.store,fake_provider).run_one()
+        job=self.store.jobs()[0];folder=self.store.runtime/'jobs'/job['id']
+        brief=json.loads((folder/'brief.json').read_text())
+        self.assertEqual(brief['project']['universe'],'Jardin')
+        self.assertEqual(brief['style_reference_images'],[])
+        self.assertEqual(brief['ratio'],'1:1')
+        self.assertEqual(p['story_context']['premise'],'Suivre une germination.')
+        self.assertEqual(self.service.stories('realify'),[])
+    def test_received_files_are_not_marked_ready_before_validation(self):
+        p=self.store.create_pack({'project_id':'realify','count':1});job=self.store.jobs()[0]
+        with self.store.db() as db:db.execute("UPDATE jobs SET state='running' WHERE id=?",(job['id'],))
+        folder=self.store.runtime/'jobs'/job['id']/'images';folder.mkdir(parents=True);(folder/'cover.png').write_bytes(b'not a validated image')
+        reported=self.store.jobs()[0]
+        self.assertEqual(reported['received_slots'],['cover'])
+        self.assertEqual(reported['completed_slots'],[])
+        self.assertIsNone(self.store.pack(p['id'])['slots'][0]['active'])

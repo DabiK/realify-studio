@@ -124,5 +124,12 @@
     "file partagée UI/agent, worker unique",
     "versions conservées",
     "aucune publication sur TikTok"
-  ]
+  ],
+  "post_states": [
+    "queued",
+    "running",
+    "ready",
+    "failed"
+  ],
+  "progress": "jobs.received_slots indique des fichiers reçus, pas encore des images validées ; completed_slots indique les imports validés."
 }

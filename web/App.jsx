@@ -337,7 +337,7 @@ export default function App() {
                             <p>
                               {activeJob.state === "queued"
                                 ? "Il attend son tour. Les travaux passent un par un."
-                                : "La génération peut prendre plusieurs minutes. Vous pouvez revenir plus tard."}
+                                : `Images reçues : ${activeJob.received_slots?.length || 0}/${activeJob.slots.length}. Le contrôle et la fiche suivent la génération.`}
                             </p>
                           </div>
                         </div>
