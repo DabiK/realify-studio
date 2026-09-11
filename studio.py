@@ -18,9 +18,9 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
 CONCEPTS = [
-    {'id': 'villains', 'title': 'Les visages de la terreur', 'family': 'Portraits cinéma',
+    {'id': 'villains', 'title': 'Les visages de la terreur', 'family': 'Instants cinéma',
      'reason': 'Le post méchants atteint 1,8 M de vues. Tester le cadrage, sans supposer que le sujet suffit.',
-     'scene': 'Live-action photographic portraits in an ancient pirate palace. Deep teal and amber, textured skin and costume, readable faces.',
+     'scene': 'Observed live-action moments in a lived-in pirate palace. Characters absorbed in an activity, unposed gestures, motivated natural light and physically credible materials.',
      'subjects': ['Donquixote Doflamingo', 'Kaido', 'Crocodile', 'Big Mom', 'Rob Lucci'],
      'image': 'doflamingo.jpg'},
     {'id': 'backstage', 'title': 'Quand la caméra s’arrête', 'family': 'Coulisses fictives',
@@ -30,7 +30,7 @@ CONCEPTS = [
      'image': 'ace.jpg'},
     {'id': 'creatures', 'title': 'Ils prennent vie', 'family': 'Créatures réalistes',
      'reason': 'Les Minks atteignent 57 k vues. Une piste secondaire pour répliquer un essai de cadrage.',
-     'scene': 'Cinematic live-action creature portraits in a lush fantasy pirate forest, physically credible fur and skin, strong recognizable silhouettes.',
+     'scene': 'Observed live-action creatures interacting with a lush pirate forest, physically credible fur and skin, recognizable silhouettes and spontaneous movement.',
      'subjects': ['Nekomamushi', 'Inuarashi', 'Carrot', 'Jinbe', 'Tony Tony Chopper'],
      'image': 'kaido.jpg'},
 ]
@@ -72,7 +72,7 @@ class Store:
             ''')
         if not self.projects():
             self.put_project({'id': 'realify', 'name': 'Realify AI', 'universe': 'One Piece',
-                              'direction': 'One Piece made physically real. Photographic cinema and fictional candid film sets. Recognizable characters, tactile costumes, teal and amber or natural daylight. No text in generated images.',
+                              'direction': 'One Piece made physically real. Photographic cinema and fictional candid film sets. Recognizable characters absorbed in action, invisible observer camera, no eye contact with the viewer, motivated natural light and tactile costumes. No text in generated images.',
                               'subjects': CONCEPTS[0]['subjects'], 'reference_files': [], 'ratio': '2:3', 'auto_next': True})
         tokenfile = self.runtime / 'access-code'
         if not tokenfile.exists():
@@ -173,8 +173,16 @@ class Store:
         else:
             concept = {'id': 'custom', 'title': f"{project['name']} · Série {len(previous) + 1:02}",
                        'family': project['universe'], 'scene': project['direction'], 'subjects': project['subjects']}
-        subjects = [concept['subjects'][i % len(concept['subjects'])] for i in range(5)]
-        keys = ['cover', 'slide_2', 'slide_3', 'slide_4', 'slide_5']
+        count = data.get('count', 5)
+        if type(count) is not int or not 1 <= count <= 5:
+            raise ValueError('Choisir de 1 à 5 images par batch.')
+        if 'subjects' in data:
+            subjects_override = data['subjects']
+            if not isinstance(subjects_override, list) or not 1 <= len(subjects_override) <= 20:
+                raise ValueError('Choisir de 1 à 20 sujets.')
+            concept = {**concept, 'subjects': [text(s, 100) for s in subjects_override]}
+        subjects = [concept['subjects'][i % len(concept['subjects'])] for i in range(count)]
+        keys = ['cover', 'slide_2', 'slide_3', 'slide_4', 'slide_5'][:count]
         slots = [{'key': key, 'subject': subjects[i], 'versions': [], 'active': None} for i, key in enumerate(keys)]
         pack = {'id': uid(), 'project_id': project['id'], 'title': concept['title'], 'concept': concept,
                 'created': time.time(), 'status': 'queued', 'slots': slots, 'ratio': project['ratio'],
@@ -359,7 +367,7 @@ class Worker:
                     self.store.save_pack(db, current)
             except Exception:
                 if not pack.get('post'):
-                    error = 'Fiche du post absente ou invalide. Reprendre la préparation.'
+                    error = error or 'Fiche du post absente ou invalide. Reprendre la préparation.'
         # Import every valid artifact, even when a later tool call failed. Never discard prior versions.
         for key in job['slots']:
             output = folder / 'images' / f'{key}.png'
@@ -409,7 +417,12 @@ class Worker:
         refs = folder / 'references'
         refs.mkdir(exist_ok=True)
         requested = []
+        continuity = []
         for slot in pack['slots']:
+            if slot['active']:
+                continuity_file = f"references/continuity-{slot['key']}.png"
+                shutil.copy2(self.store.media_path(slot['active']), folder / continuity_file)
+                continuity.append({'key': slot['key'], 'subject': slot['subject'], 'file': continuity_file})
             if slot['key'] not in job['slots']:
                 continue
             reference = None
@@ -436,6 +449,7 @@ class Worker:
         brief = {'project': {k: project[k] for k in ['name', 'universe', 'direction']}, 'concept': pack['concept'],
                  'notes': pack['notes'], 'ratio': pack['ratio'], 'requested_slots': requested,
                  'correction': job['correction'], 'style_reference_images': reference_names,
+                 'continuity_images': continuity,
                  'recent_posts': [{'title': p['title'], 'feedback': p['feedback'][-5:]} for p in self.store.packs(project['id'])[:8]],
                  'metadata_destination': 'post.json',
                  'constraint': 'Existing Codex subscription only. Native image tool only. No paid API or fallback.'}

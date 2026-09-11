@@ -74,3 +74,9 @@ Mettre le serveur derrière un proxy HTTPS ou un réseau privé, stocker `runtim
 - [GitHub CLI](https://cli.github.com/manual/gh_repo_create) : création du dépôt privé depuis les sources locales.
 
 Les sources documentaires établissent les interfaces ; le test réel décrit dans `VALIDATION.md` établit la disponibilité du moteur image sur ce Mac.
+
+## Adaptateur agent et direction photographique
+
+`cli.py` et l’API utilisent le même `Store`. Les demandes agent n’embarquent pas de worker : le serveur reste propriétaire unique de la consommation de la file. `create_pack` accepte désormais `count` de 1 à 5 et une liste de sujets facultative, sans modifier la sélection du projet pour les demandes suivantes. L’UI conserve cinq images par défaut. Contrat complet : [AGENT-CLI.md](AGENT-CLI.md).
+
+Le producteur écrit un `shot-plan.json` avant génération et un `shot-review.json` après inspection. Ces fichiers internes ne sont pas une preuve automatique de qualité ; le worker valide les fichiers image et la fiche, le jugement visuel reste qualitatif. Les images actives du même pack sont transmises dans `continuity_images`, même pour les slots non demandés, afin d’aider les reprises et corrections sans réécrire les autres images. Les instructions distinguent identité et pose des références ; la DA Realify privilégie des moments vécus et une lumière liée au lieu. Les autres projets gardent leur esthétique.

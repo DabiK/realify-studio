@@ -6,12 +6,13 @@
 
 Faire exister One Piece dans le monde réel. Le personnage doit être reconnu avant même de lire son nom. La situation doit ajouter une idée à la simple prouesse technique.
 
-Deux langages photographiques coexistent :
+## Direction actuelle — retour utilisateur du 11 septembre 2026
 
-- **Cinéma / personnages** : portrait ou plan américain, présence physique, matière de peau, cicatrices, étoffes, fourrure et métal crédibles. Lumière sculptée, verts profonds, ambre, contraste maîtrisé. Garder le visage lisible sur téléphone ; « sombre » ne veut pas dire sous-exposé.
-- **Coulisses fictives** : photographies spontanées sur un plateau, vrais objets de tournage, personnel en arrière-plan, maquillage, vêtements froissés, rire ou pause entre deux prises. Lumière parfois naturelle et claire. Éviter l'apparence d'une affiche posée. Les présenter comme des créations IA fictives, jamais comme des informations sur un tournage officiel.
+Les portraits frontaux tenant un accessoire près du visage ont été jugés trop artificiels. La priorité est désormais une caméra invisible qui surprend un moment d’action ou de légèreté : personne ne pose pour le spectateur ni ne regarde l’objectif. Chaque regard vise un partenaire, un objet ou un événement dans la scène. La reconnaissance du personnage passe par son identité, ses gestes et ses détails distinctifs.
 
-Les poses, expressions et accessoires portent le personnage : arrogance de Doflamingo, masse et cornes de Kaido, assurance de Crocodile. Une silhouette réaliste générique portant un costume ne suffit pas.
+Cadrages naturels et variés, profondeur du lieu, premier plan discret, lumière motivée par le décor, couleurs retenues et matières crédibles. Ni étalonnage bleu-orange automatique, ni peau publicitaire, ni affiche héroïque par défaut. L’action peut être minuscule : retenir une carte qui s’envole, partager un rire, enfiler un manteau en marchant. Les tenues servent le moment ; les références historiques conservent l’identité sans imposer bikini, pose ou lumière.
+
+Les coulisses fictives restent possibles : moments entre prises, objets et personnel de tournage crédibles. Les présenter comme des créations IA fictives, jamais comme des informations sur une production officielle. Pour un récit, chaque image apporte un événement et la suivante en montre une conséquence.
 
 ## Mise en page observée
 
