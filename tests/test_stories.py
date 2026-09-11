@@ -110,3 +110,22 @@ class StoryContractTests(unittest.TestCase):
         self.assertEqual(self.store.pack(p['id'])['status'],'ready')
         self.assertEqual(result,self.service.execute('job.recover',{'job_id':job['id']},'recover'))
         self.assertEqual(len(self.store.pack(p['id'])['slots'][0]['versions']),1)
+    def test_completed_series_does_not_generate_an_unrelated_fourth_post(self):
+        project=self.store.project('realify');project['auto_next']=False;self.store.put_project(project)
+        story=self.story()
+        for number in range(1,4):
+            pack=self.service.execute('story.next',{'story_id':story['id']},f'episode-{number}')
+            Worker(self.store,fake_provider).run_one()
+            if number<3:self.store.publish(pack['id'],{})
+        with self.assertRaises(ValueError):self.service.execute('story.next',{'story_id':story['id']},'fourth')
+        project['auto_next']=True;self.store.put_project(project)
+        self.assertIsNone(self.store.publish(pack['id'],{})['next'])
+        self.assertEqual(len(self.store.packs()),3)
+    def test_explicit_local_budget_is_enforced_atomically(self):
+        import os
+        from unittest.mock import patch
+        with patch.dict(os.environ,{'STUDIO_DAILY_IMAGES':'1'}):
+            self.service.execute('pack.create',{'project_id':'realify','count':1},'first-image')
+            with self.assertRaises(ValueError):self.service.execute('pack.create',{'project_id':'realify','count':1},'over-budget')
+        self.assertEqual(len(self.store.packs()),1)
+        self.assertEqual(len(self.store.jobs()),1)

@@ -88,7 +88,7 @@ def make_server(store, host='127.0.0.1', port=8787):
                 # Host process details and raw agent logs are deliberately not served.
                 return self.send(200, {'projects': store.projects(), 'packs': store.packs(), 'jobs': jobs,
                                        'concepts': CONCEPTS, 'stories': StoryService(store).stories(),
-                                       'limits': {'daily_images': int(os.environ.get('STUDIO_DAILY_IMAGES', '40'))}})
+                                       'limits': {'daily_images': int(os.environ.get('STUDIO_DAILY_IMAGES', '0'))}})
             if path == '/api/analytics':
                 return self.send(200, (ROOT / 'data/analytics.json').read_bytes())
             if path.startswith('/media/'):

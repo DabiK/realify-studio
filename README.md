@@ -59,7 +59,7 @@ npm run test:ui
 python3 scripts/analyze.py
 ```
 
-Les tests navigateur lancent une base temporaire et un provider explicitement synthétique, jamais le compte Codex réel. Les erreurs de génération sont visibles ; les relances sont volontaires, les versions conservées. Plafond local par défaut : 40 demandes d’images sur 24 h. Voir les variables de configuration dans l’architecture.
+Les tests navigateur lancent une base temporaire et un provider explicitement synthétique, jamais le compte Codex réel. Les erreurs de génération sont visibles ; les relances sont volontaires, les versions conservées. Le plafond quotidien local est facultatif et désactivé par défaut ; les limites réelles de l’abonnement Codex continuent de s’appliquer. Voir les variables de configuration dans l’architecture.
 
 L’ajout de texte dépend du rendu du moteur image et mérite une relecture. Les captions et hashtags sont adaptés au contenu, sans garantie de portée ni prétention de connaître les tendances du jour. Le déploiement VPS est documenté, pas encore effectué.
 

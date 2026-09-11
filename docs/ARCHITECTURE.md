@@ -49,7 +49,7 @@ Le serveur écoute par défaut sur 127.0.0.1. Pour le téléphone sur le réseau
 |---|---|---|
 | `STUDIO_RUNTIME` | `./runtime` | Volume persistant |
 | `STUDIO_CODEX_BIN` | `codex` | Exécutable Codex |
-| `STUDIO_DAILY_IMAGES` | `40` | Nombre de slots demandés sur 24 h, reprises comprises |
+| `STUDIO_DAILY_IMAGES` | `0` | Plafond local facultatif de slots/24 h ; 0 = désactivé, une valeur positive compte aussi les reprises |
 | `STUDIO_JOB_TIMEOUT` | `1500` | Délai maximal par travail, secondes |
 | `STUDIO_SECURE_COOKIE` | absent | `1` derrière HTTPS |
 | `CODEX_HOME` | géré par Codex | Configuration, skills et authentification de l’utilisateur |

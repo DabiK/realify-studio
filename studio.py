@@ -124,7 +124,8 @@ class Store:
             raise ValueError('Ce pack a déjà une génération en cours.')
         jobs_today = db.execute('SELECT data FROM jobs WHERE created >= ?', (time.time() - 86400,)).fetchall()
         requested = sum(len(json.loads(r['data'])['slots']) for r in jobs_today)
-        if requested + len(slots) > int(os.environ.get('STUDIO_DAILY_IMAGES', '40')):
+        daily_limit = int(os.environ.get('STUDIO_DAILY_IMAGES', '0'))
+        if daily_limit > 0 and requested + len(slots) > daily_limit:
             raise ValueError('Limite locale de demandes d’images sur 24 h atteinte. Les générations et reprises comptent dans cette limite.')
         job = {'id': uid(), 'pack_id': pack['id'], 'slots': slots, 'correction': correction,
                'created': time.time(), 'message': 'En attente', 'completed_slots': []}

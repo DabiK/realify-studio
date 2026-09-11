@@ -71,9 +71,11 @@ export default function Stories({
                 })
               }
             >
-              {story.episodes.length
-                ? "Préparer la suite"
-                : "Préparer l’épisode 1"}
+              {story.episodes.length >= story.outline.length
+                ? "Série complète"
+                : story.episodes.length
+                  ? "Préparer la suite"
+                  : "Préparer l’épisode 1"}
               <Icon name="arrow" />
             </button>
           </div>
