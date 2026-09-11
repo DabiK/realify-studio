@@ -91,6 +91,19 @@ class StudioTests(unittest.TestCase):
         self.assertEqual(complete['status'], 'ready')
         self.assertEqual(complete['slots'][0]['active'], original)
 
+    def test_correction_can_succeed_on_an_incomplete_pack(self):
+        p = self.store.create_pack({'project_id': 'realify'})
+        def partial(job, folder):
+            fake_provider({**job, 'slots': ['cover']}, folder)
+            (folder / 'post.json').unlink()
+        Worker(self.store, partial).run_one()
+        job = self.store.correct(p['id'], {'slot': 'cover', 'instruction': 'Moment spontané.'})
+        Worker(self.store, fake_provider).run_one()
+        result = next(j for j in self.store.jobs() if j['id'] == job['id'])
+        self.assertEqual(result['state'], 'completed')
+        self.assertEqual(self.store.pack(p['id'])['status'], 'failed')
+        self.assertEqual(len(self.store.pack(p['id'])['slots'][0]['versions']), 2)
+
     def test_missing_metadata_can_resume_without_new_images(self):
         p = self.store.create_pack({'project_id': 'realify'})
         def no_metadata(job, folder):

@@ -401,7 +401,7 @@ class Worker:
                     db.execute('UPDATE jobs SET data=? WHERE id=?', (json.dumps(job), job['id']))
             except Exception as exc:
                 error = str(exc)[:700]
-        complete = len(job['completed_slots']) == len(job['slots']) and bool(self.store.pack(pack['id']).get('post'))
+        complete = len(job['completed_slots']) == len(job['slots']) and (bool(job['correction']) or bool(self.store.pack(pack['id']).get('post')))
         job['message'] = 'Images disponibles' if complete else ('Génération incomplète. ' + (error or 'Codex n’a pas produit tous les fichiers attendus. Vérifier sa connexion et la disponibilité de la génération d’images.'))
         with self.store.db() as db:
             db.execute('BEGIN IMMEDIATE')
